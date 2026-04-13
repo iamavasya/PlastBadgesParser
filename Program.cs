@@ -58,7 +58,9 @@ namespace PlastBadgesParser
         string InputPath,
         string LinkBaseUrl,
         string ReportOutputPath,
-        string ProjectFilePath
+        string ProjectFilePath,
+        string ImagesDirectoryPath,
+        string ImagesPublicPrefix
     );
 
     class Program
@@ -67,6 +69,8 @@ namespace PlastBadgesParser
         private const string BaseUrl = "https://plast.global/biblioteka-vmilostej/";
         private const string BadgePublicBaseUrl = "https://plast.global/skills-library/";
         private const string OutputFileName = "badges.json";
+        private const string DefaultImagesDirectoryName = "badges_images";
+        private const string DefaultImagesPublicPrefix = "/badges_images/";
         private const string DefaultProjectFileName = "PlastBadgesParser.csproj";
         private const string ToolAuthor = "Rostyslav Mukha";
         private const string ParserVersionEnvVar = "PARSER_VERSION";
@@ -101,11 +105,13 @@ namespace PlastBadgesParser
 
             Console.WriteLine($"Починаємо збір даних... Fixer: {(options.FixerEnabled ? options.FixerMode.ToString() : "Off")}");
 
-            string imagesDir = Path.Combine(Directory.GetCurrentDirectory(), "badges_images");
+            string imagesDir = ResolveImagesDirectoryPath(options.ImagesDirectoryPath);
             if (!Directory.Exists(imagesDir))
             {
                 Directory.CreateDirectory(imagesDir);
             }
+
+            var imagesPublicPrefix = NormalizeImagesPublicPrefix(options.ImagesPublicPrefix);
 
             var badgesList = new List<BadgeDetail>();
 
@@ -116,7 +122,7 @@ namespace PlastBadgesParser
             {
                 try
                 {
-                    var badge = await ParseBadgeDetailsAsync(link, imagesDir);
+                    var badge = await ParseBadgeDetailsAsync(link, imagesDir, imagesPublicPrefix);
                     if (badge != null)
                     {
                         badgesList.Add(badge);
@@ -163,7 +169,7 @@ namespace PlastBadgesParser
             string jsonString = JsonSerializer.Serialize(export, jsonOptions);
             await File.WriteAllTextAsync(OutputFileName, jsonString);
 
-            Console.WriteLine($"\nГотово! Дані збережено у {OutputFileName}, а векторні зображення у папку {imagesDir}");
+            Console.WriteLine($"\nГотово! Дані збережено у {OutputFileName}, а векторні зображення у папку {imagesDir}. Public image prefix: {imagesPublicPrefix}");
         }
 
         static string ResolveParserVersion(string projectFilePath)
@@ -275,6 +281,8 @@ namespace PlastBadgesParser
             string linkBaseUrl = BadgePublicBaseUrl;
             string reportOutputPath = string.Empty;
             string projectFilePath = string.Empty;
+            string imagesDirectoryPath = DefaultImagesDirectoryName;
+            string imagesPublicPrefix = DefaultImagesPublicPrefix;
 
             foreach (var arg in args)
             {
@@ -341,10 +349,60 @@ namespace PlastBadgesParser
                 if (arg.StartsWith("--project-file=", StringComparison.OrdinalIgnoreCase))
                 {
                     projectFilePath = arg.Split('=', 2).LastOrDefault()?.Trim() ?? string.Empty;
+                    continue;
+                }
+
+                if (arg.StartsWith("--images-dir=", StringComparison.OrdinalIgnoreCase))
+                {
+                    imagesDirectoryPath = arg.Split('=', 2).LastOrDefault()?.Trim() ?? DefaultImagesDirectoryName;
+                    continue;
+                }
+
+                if (arg.StartsWith("--images-public-prefix=", StringComparison.OrdinalIgnoreCase))
+                {
+                    imagesPublicPrefix = arg.Split('=', 2).LastOrDefault()?.Trim() ?? DefaultImagesPublicPrefix;
                 }
             }
 
-            return new ParserOptions(fixerEnabled, fixerMode, reportOnly, inputPath, linkBaseUrl, reportOutputPath, projectFilePath);
+            return new ParserOptions(
+                fixerEnabled,
+                fixerMode,
+                reportOnly,
+                inputPath,
+                linkBaseUrl,
+                reportOutputPath,
+                projectFilePath,
+                imagesDirectoryPath,
+                imagesPublicPrefix);
+        }
+
+        static string ResolveImagesDirectoryPath(string imagesDirectoryPath)
+        {
+            var value = string.IsNullOrWhiteSpace(imagesDirectoryPath)
+                ? DefaultImagesDirectoryName
+                : imagesDirectoryPath.Trim();
+
+            return Path.GetFullPath(value);
+        }
+
+        static string NormalizeImagesPublicPrefix(string imagesPublicPrefix)
+        {
+            var value = string.IsNullOrWhiteSpace(imagesPublicPrefix)
+                ? DefaultImagesPublicPrefix
+                : imagesPublicPrefix.Trim();
+
+            value = value.Replace('\\', '/');
+            if (!value.StartsWith('/'))
+            {
+                value = "/" + value;
+            }
+
+            if (!value.EndsWith('/'))
+            {
+                value += "/";
+            }
+
+            return value;
         }
 
         static async Task RunReportOnlyAsync(ParserOptions options)
@@ -512,7 +570,7 @@ namespace PlastBadgesParser
             return links.Distinct().ToList();
         }
 
-        static async Task<BadgeDetail?> ParseBadgeDetailsAsync(string url, string imagesDir)
+        static async Task<BadgeDetail?> ParseBadgeDetailsAsync(string url, string imagesDir, string imagesPublicPrefix)
         {
             var html = await _httpClient.GetStringAsync(url);
             var doc = new HtmlDocument();
@@ -550,7 +608,7 @@ namespace PlastBadgesParser
                     await File.WriteAllBytesAsync(localImagePath, imageBytes);
                 }
                 
-                localImagePath = $"/images/badges/{fileName}";
+                localImagePath = imagesPublicPrefix + fileName;
             }
 
             return new BadgeDetail(

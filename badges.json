@@ -1,8 +1,9 @@
 {
   "Meta": {
-    "ParserVersion": "1.0.0",
-    "ParserComment": "PlastBadgesParser v1.0.0 by Rostyslav Mukha. Parsed from https://plast.global/biblioteka-vmilostej/ at 2026-04-13 06:27:36 UTC",
-    "ParsedAtUtc": "2026-04-13T06:27:36Z",
+    "ParserVersion": "1.0.2",
+    "ToolAuthor": "Rostyslav Mukha",
+    "ParserComment": "PlastBadgesParser v1.0.2. Parsed from https://plast.global/biblioteka-vmilostej/ at 2026-04-13 18:06:44 UTC",
+    "ParsedAtUtc": "2026-04-13T18:06:44Z",
     "SourceUrl": "https://plast.global/biblioteka-vmilostej/",
     "FixerEnabled": true,
     "FixerMode": "soft",
@@ -12,7 +13,7 @@
     {
       "Id": "30-littya-plastu-v-polshhi",
       "Title": "30-ліття Пласту в Польщі",
-      "ImagePath": "/images/badges/30-littya-plastu-v-polshhi-ch_b.svg",
+      "ImagePath": "/badges_images/30-littya-plastu-v-polshhi-ch_b.svg",
       "Country": "Польща",
       "Specialization": "Загальні вмілості",
       "Status": "Апробаційна",
@@ -25,7 +26,7 @@
     {
       "Id": "avtoznavstvo-i",
       "Title": "Автознавство І",
-      "ImagePath": "/images/badges/avtoznavstvo_i_color.svg",
+      "ImagePath": "/badges_images/avtoznavstvo_i_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -38,7 +39,7 @@
     {
       "Id": "avtoznavstvo-ii",
       "Title": "Автознавство ІI",
-      "ImagePath": "/images/badges/avtoznavstvo_ii_color.svg",
+      "ImagePath": "/badges_images/avtoznavstvo_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -51,7 +52,7 @@
     {
       "Id": "avtoznavstvo-iii",
       "Title": "Автознавство ІII",
-      "ImagePath": "/images/badges/avtoznavstvo_iii_color.svg",
+      "ImagePath": "/badges_images/avtoznavstvo_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -64,7 +65,7 @@
     {
       "Id": "aviamodelyuvannya-i",
       "Title": "Авіамоделювання I",
-      "ImagePath": "/images/badges/aviamodeliuvannia_i_color.svg",
+      "ImagePath": "/badges_images/aviamodeliuvannia_i_color.svg",
       "Country": "Україна",
       "Specialization": "Летунська",
       "Status": "Затверджена",
@@ -77,7 +78,7 @@
     {
       "Id": "aviamodelyuvannya-ii",
       "Title": "Авіамоделювання II",
-      "ImagePath": "/images/badges/aviamodeliuvannia_ii_color.svg",
+      "ImagePath": "/badges_images/aviamodeliuvannia_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Летунська",
       "Status": "Затверджена",
@@ -90,7 +91,7 @@
     {
       "Id": "aviamodelyuvannya-iii",
       "Title": "Авіамоделювання III",
-      "ImagePath": "/images/badges/aviamodeliuvannia_iii_color.svg",
+      "ImagePath": "/badges_images/aviamodeliuvannia_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Летунська",
       "Status": "Затверджена",
@@ -103,7 +104,7 @@
     {
       "Id": "aviaczijna-meteorologiya-i-ii-proba",
       "Title": "Авіаційна метеорологія І - ІІ проба",
-      "ImagePath": "/images/badges/aviatsiina_meteorolohiia_i_color.svg",
+      "ImagePath": "/badges_images/aviatsiina_meteorolohiia_i_color.svg",
       "Country": "Україна",
       "Specialization": "Летунська",
       "Status": "Затверджена",
@@ -116,7 +117,7 @@
     {
       "Id": "aviaczijna-meteorologiya-ii-iii-proba",
       "Title": "Авіаційна метеорологія ІІ - ІІІ проба",
-      "ImagePath": "/images/badges/aviatsiina_meteorolohiia_ii_color.svg",
+      "ImagePath": "/badges_images/aviatsiina_meteorolohiia_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Летунська",
       "Status": "Затверджена",
@@ -129,7 +130,7 @@
     {
       "Id": "aerodynamika-ii-proba",
       "Title": "Аеродинаміка - ІІ проба",
-      "ImagePath": "/images/badges/aerodynamika_ii_color.svg",
+      "ImagePath": "/badges_images/aerodynamika_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Летунська",
       "Status": "Затверджена",
@@ -142,7 +143,7 @@
     {
       "Id": "aeronavigacziya-ta-povitryanyj-ruh-i",
       "Title": "Аеронавігація та повітряний рух І",
-      "ImagePath": "/images/badges/aeronavihatsiia_ta_povitrianyi_rukh_i_color.svg",
+      "ImagePath": "/badges_images/aeronavihatsiia_ta_povitrianyi_rukh_i_color.svg",
       "Country": "Україна",
       "Specialization": "Летунська",
       "Status": "Затверджена",
@@ -155,7 +156,7 @@
     {
       "Id": "aeronavigacziya-ta-povitryanyj-ruh-ii",
       "Title": "Аеронавігація та повітряний рух ІІ",
-      "ImagePath": "/images/badges/aeronavihatsiia_ta_povitrianyi_rukh_ii_color.svg",
+      "ImagePath": "/badges_images/aeronavihatsiia_ta_povitrianyi_rukh_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Летунська",
       "Status": "Затверджена",
@@ -168,7 +169,7 @@
     {
       "Id": "aeronavigacziya-ta-povitryanyj-ruh-iii",
       "Title": "Аеронавігація та повітряний рух ІІІ",
-      "ImagePath": "/images/badges/aeronavihatsiia_ta_povitrianyi_rukh_iii_color.svg",
+      "ImagePath": "/badges_images/aeronavihatsiia_ta_povitrianyi_rukh_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Летунська",
       "Status": "Затверджена",
@@ -181,7 +182,7 @@
     {
       "Id": "aktorstvo-i",
       "Title": "Акторство І",
-      "ImagePath": "/images/badges/aktorstvo_i_color.svg",
+      "ImagePath": "/badges_images/aktorstvo_i_color.svg",
       "Country": "Україна",
       "Specialization": "Мистецька",
       "Status": "Затверджена",
@@ -194,7 +195,7 @@
     {
       "Id": "aktorstvo-ii",
       "Title": "Акторство ІІ",
-      "ImagePath": "/images/badges/aktorstvo_ii_color.svg",
+      "ImagePath": "/badges_images/aktorstvo_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Мистецька",
       "Status": "Затверджена",
@@ -207,7 +208,7 @@
     {
       "Id": "aktorstvo-iii",
       "Title": "Акторство ІІІ",
-      "ImagePath": "/images/badges/aktorstvo_iii_color.svg",
+      "ImagePath": "/badges_images/aktorstvo_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Мистецька",
       "Status": "Затверджена",
@@ -220,7 +221,7 @@
     {
       "Id": "alpinistyka",
       "Title": "Альпіністика",
-      "ImagePath": "/images/badges/alpinistyka_i_color.svg",
+      "ImagePath": "/badges_images/alpinistyka_i_color.svg",
       "Country": "Польща",
       "Specialization": "Альпінізм та скелелазіння",
       "Status": "Затверджена",
@@ -233,7 +234,7 @@
     {
       "Id": "alpinistyka-i-iii-proba",
       "Title": "Альпіністика І - ІІІ проба",
-      "ImagePath": "/images/badges/alpinistyka_i_color.svg",
+      "ImagePath": "/badges_images/alpinistyka_i_color.svg",
       "Country": "Україна",
       "Specialization": "Альпінізм та скелелазіння",
       "Status": "Затверджена",
@@ -246,7 +247,7 @@
     {
       "Id": "arheologiya-i",
       "Title": "Археологія І",
-      "ImagePath": "/images/badges/arkheolohiia_i_color.svg",
+      "ImagePath": "/badges_images/arkheolohiia_i_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -259,7 +260,7 @@
     {
       "Id": "arheologiya-ii",
       "Title": "Археологія ІІ",
-      "ImagePath": "/images/badges/arkheolohiia_ii_color.svg",
+      "ImagePath": "/badges_images/arkheolohiia_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -272,7 +273,7 @@
     {
       "Id": "arheologiya-iii",
       "Title": "Археологія ІІІ",
-      "ImagePath": "/images/badges/arkheolohiia_iii_color.svg",
+      "ImagePath": "/badges_images/arkheolohiia_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -285,7 +286,7 @@
     {
       "Id": "astronomiya-i",
       "Title": "Астрономія І",
-      "ImagePath": "/images/badges/astronomiia_i_color.svg",
+      "ImagePath": "/badges_images/astronomiia_i_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -298,7 +299,7 @@
     {
       "Id": "astronomiya-ii",
       "Title": "Астрономія ІI",
-      "ImagePath": "/images/badges/astronomiia_ii_color.svg",
+      "ImagePath": "/badges_images/astronomiia_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -311,7 +312,7 @@
     {
       "Id": "astronomiya-iii",
       "Title": "Астрономія ІII",
-      "ImagePath": "/images/badges/astronomiia_iii_color.svg",
+      "ImagePath": "/badges_images/astronomiia_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -324,7 +325,7 @@
     {
       "Id": "bezpeka-ruhu-iii-proba",
       "Title": "Безпека руху ІІІ проба",
-      "ImagePath": "/images/badges/bezpeka_rukhu_iii_color.svg",
+      "ImagePath": "/badges_images/bezpeka_rukhu_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -337,7 +338,7 @@
     {
       "Id": "bezpeka-ii-proba",
       "Title": "Безпека ІІ проба",
-      "ImagePath": "/images/badges/bezpeka_ii_color.svg",
+      "ImagePath": "/badges_images/bezpeka_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -350,7 +351,7 @@
     {
       "Id": "borecz-i",
       "Title": "Борець І",
-      "ImagePath": "/images/badges/borets_i_color.svg",
+      "ImagePath": "/badges_images/borets_i_color.svg",
       "Country": "Польща",
       "Specialization": "Спортивна",
       "Status": "Затверджена",
@@ -363,7 +364,7 @@
     {
       "Id": "borecz-i-vidnovlena-vmilist",
       "Title": "Борець І (відновлена вмілість)",
-      "ImagePath": "/images/badges/borets_i_color.svg",
+      "ImagePath": "/badges_images/borets_i_color.svg",
       "Country": "Україна",
       "Specialization": "Військова",
       "Status": "Затверджена",
@@ -376,7 +377,7 @@
     {
       "Id": "borecz-ii",
       "Title": "Борець ІІ",
-      "ImagePath": "/images/badges/borets_ii_color.svg",
+      "ImagePath": "/badges_images/borets_ii_color.svg",
       "Country": "Польща",
       "Specialization": "Спортивна",
       "Status": "Затверджена",
@@ -389,7 +390,7 @@
     {
       "Id": "borecz-ii-vidnovlena-vmilist",
       "Title": "Борець ІІ (відновлена вмілість)",
-      "ImagePath": "/images/badges/borets_ii_color.svg",
+      "ImagePath": "/badges_images/borets_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Військова",
       "Status": "Затверджена",
@@ -402,7 +403,7 @@
     {
       "Id": "borecz-iii",
       "Title": "Борець ІІІ",
-      "ImagePath": "/images/badges/borets_iii_color.svg",
+      "ImagePath": "/badges_images/borets_iii_color.svg",
       "Country": "Польща",
       "Specialization": "Спортивна",
       "Status": "Затверджена",
@@ -415,7 +416,7 @@
     {
       "Id": "borecz-iii-vidnovlena-vmilist",
       "Title": "Борець ІІІ (відновлена вмілість)",
-      "ImagePath": "/images/badges/borets_iii_color.svg",
+      "ImagePath": "/badges_images/borets_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Військова",
       "Status": "Затверджена",
@@ -428,7 +429,7 @@
     {
       "Id": "bortova-mehanika-iii-proba",
       "Title": "Бортова механіка - ІІІ проба",
-      "ImagePath": "/images/badges/bortova_mekhanika_iii_color.svg",
+      "ImagePath": "/badges_images/bortova_mekhanika_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Морська",
       "Status": "Затверджена",
@@ -441,7 +442,7 @@
     {
       "Id": "budova-litalnyh-aparativ-i",
       "Title": "Будова літальних апаратів І",
-      "ImagePath": "/images/badges/budova_litalnykh_aparativ_i_color.svg",
+      "ImagePath": "/badges_images/budova_litalnykh_aparativ_i_color.svg",
       "Country": "Україна",
       "Specialization": "Летунська",
       "Status": "Затверджена",
@@ -454,7 +455,7 @@
     {
       "Id": "budova-litalnyh-aparativ-ii",
       "Title": "Будова літальних апаратів ІІ",
-      "ImagePath": "/images/badges/budova_litalnykh_aparativ_ii_color.svg",
+      "ImagePath": "/badges_images/budova_litalnykh_aparativ_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Летунська",
       "Status": "Затверджена",
@@ -467,7 +468,7 @@
     {
       "Id": "budova-litalnyh-aparativ-iii",
       "Title": "Будова літальних апаратів ІІІ",
-      "ImagePath": "/images/badges/budova_litalnykh_aparativ_iii_color.svg",
+      "ImagePath": "/badges_images/budova_litalnykh_aparativ_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Летунська",
       "Status": "Затверджена",
@@ -480,7 +481,7 @@
     {
       "Id": "budivnycztvo-suden-iii-proba",
       "Title": "Будівництво суден - ІІІ проба",
-      "ImagePath": "/images/badges/budivnytstvo_suden_iii_color.svg",
+      "ImagePath": "/badges_images/budivnytstvo_suden_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Морська",
       "Status": "Затверджена",
@@ -493,7 +494,7 @@
     {
       "Id": "bibliotekarstvo-ii-proba",
       "Title": "Бібліотекарство - ІІ проба",
-      "ImagePath": "/images/badges/bibliotekarstvo_ii_color.svg",
+      "ImagePath": "/badges_images/bibliotekarstvo_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -506,7 +507,7 @@
     {
       "Id": "vebmajster",
       "Title": "Вебмайстер",
-      "ImagePath": "/images/badges/vebmaister_iii_color.svg",
+      "ImagePath": "/badges_images/vebmaister_iii_color.svg",
       "Country": "Польща",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -519,7 +520,7 @@
     {
       "Id": "vebmajster-iii-proba",
       "Title": "Вебмайстер - ІІІ проба",
-      "ImagePath": "/images/badges/vebmaister_iii_color.svg",
+      "ImagePath": "/badges_images/vebmaister_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -532,7 +533,7 @@
     {
       "Id": "velomandrivnycztvo-i-ii-proba",
       "Title": "Веломандрівництво І (ІІ проба)",
-      "ImagePath": "/images/badges/velomandrivnytstvo_i_color.svg",
+      "ImagePath": "/badges_images/velomandrivnytstvo_i_color.svg",
       "Country": "Україна",
       "Specialization": "Велосипедна",
       "Status": "Затверджена",
@@ -545,7 +546,7 @@
     {
       "Id": "vzayemodiya-iz-lyudmy-z-invalidnistyu-ii-proba",
       "Title": "Взаємодія із людьми з інвалідністю - ІІ проба",
-      "ImagePath": "/images/badges/vzaiemodiia_iz_liudmy_z_invalidnistiu_ii_color.svg",
+      "ImagePath": "/badges_images/vzaiemodiia_iz_liudmy_z_invalidnistiu_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -558,7 +559,7 @@
     {
       "Id": "vyfleyemskyj-vogon-myru-i",
       "Title": "Вифлеємський Вогонь Миру І",
-      "ImagePath": "/images/badges/vyflyyemskyj-vogon-myru-1-chb-01.svg",
+      "ImagePath": "/badges_images/vyflyyemskyj-vogon-myru-1-chb-01.svg",
       "Country": "Польща",
       "Specialization": "Загальні вмілості",
       "Status": "Апробаційна",
@@ -571,7 +572,7 @@
     {
       "Id": "vyfleyemskyj-vogon-myru-ii",
       "Title": "Вифлеємський Вогонь Миру ІІ",
-      "ImagePath": "/images/badges/vyflyyemskyj-vogon-myru-2-chb-01-artboard-1.svg",
+      "ImagePath": "/badges_images/vyflyyemskyj-vogon-myru-2-chb-01-artboard-1.svg",
       "Country": "Польща",
       "Specialization": "Загальні вмілості",
       "Status": "Апробаційна",
@@ -584,7 +585,7 @@
     {
       "Id": "vyfleyemskyj-vogon-myru-iii",
       "Title": "Вифлеємський Вогонь Миру ІІІ",
-      "ImagePath": "/images/badges/vyflyyemskyj-vogon-myru-3-01-artboard-1-2-1.svg",
+      "ImagePath": "/badges_images/vyflyyemskyj-vogon-myru-3-01-artboard-1-2-1.svg",
       "Country": "Польща",
       "Specialization": "Загальні вмілості",
       "Status": "Апробаційна",
@@ -597,7 +598,7 @@
     {
       "Id": "vyshyvannya-i",
       "Title": "Вишивання І",
-      "ImagePath": "/images/badges/vyshyvannia_i_color.svg",
+      "ImagePath": "/badges_images/vyshyvannia_i_color.svg",
       "Country": "Україна",
       "Specialization": "Мистецька",
       "Status": "Затверджена",
@@ -610,7 +611,7 @@
     {
       "Id": "vyshyvannya-ii",
       "Title": "Вишивання ІІ",
-      "ImagePath": "/images/badges/vyshyvannia_ii_color.svg",
+      "ImagePath": "/badges_images/vyshyvannia_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Мистецька",
       "Status": "Затверджена",
@@ -623,7 +624,7 @@
     {
       "Id": "vyshyvannya-iii",
       "Title": "Вишивання ІІІ",
-      "ImagePath": "/images/badges/vyshyvannia_iii_color.svg",
+      "ImagePath": "/badges_images/vyshyvannia_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Мистецька",
       "Status": "Затверджена",
@@ -636,7 +637,7 @@
     {
       "Id": "vodne-leshhetarstvo-ii-proba",
       "Title": "Водне лещетарство - ІІ проба",
-      "ImagePath": "/images/badges/vodne_leshchetarstvo_ii_color.svg",
+      "ImagePath": "/badges_images/vodne_leshchetarstvo_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Морська",
       "Status": "Затверджена",
@@ -649,7 +650,7 @@
     {
       "Id": "vodne-ryativnycztvo-iii-proba",
       "Title": "Водне рятівництво - ІІІ проба",
-      "ImagePath": "/images/badges/vodne_riativnytstvo_iii_color.svg",
+      "ImagePath": "/badges_images/vodne_riativnytstvo_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Морська",
       "Status": "Затверджена",
@@ -662,7 +663,7 @@
     {
       "Id": "vodolazhennya-iii-proba",
       "Title": "Водолаження - ІІІ проба",
-      "ImagePath": "/images/badges/vodolazhennia_iii_color.svg",
+      "ImagePath": "/badges_images/vodolazhennia_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Морська",
       "Status": "Затверджена",
@@ -675,7 +676,7 @@
     {
       "Id": "volonterska-sluzhba-i",
       "Title": "Волонтерська служба І",
-      "ImagePath": "/images/badges/volonterska-sluzhba-1-chb-01-artboard-1.svg",
+      "ImagePath": "/badges_images/volonterska-sluzhba-1-chb-01-artboard-1.svg",
       "Country": "Польща",
       "Specialization": "Загальні вмілості",
       "Status": "Апробаційна",
@@ -688,7 +689,7 @@
     {
       "Id": "volonterska-sluzhba-ii",
       "Title": "Волонтерська служба ІІ",
-      "ImagePath": "/images/badges/volonterska-sluzhba-2-chb-01-artboard-1.svg",
+      "ImagePath": "/badges_images/volonterska-sluzhba-2-chb-01-artboard-1.svg",
       "Country": "Польща",
       "Specialization": "Загальні вмілості",
       "Status": "Апробаційна",
@@ -701,7 +702,7 @@
     {
       "Id": "volonterska-sluzhba-iii",
       "Title": "Волонтерська служба ІІІ",
-      "ImagePath": "/images/badges/volonterska-sluzhba-3-chb-01-artboard-1.svg",
+      "ImagePath": "/badges_images/volonterska-sluzhba-3-chb-01-artboard-1.svg",
       "Country": "Польща",
       "Specialization": "",
       "Status": "Апробаційна",
@@ -716,7 +717,7 @@
     {
       "Id": "vporyad-i-2",
       "Title": "Впоряд І",
-      "ImagePath": "/images/badges/vporiad_i_color.svg",
+      "ImagePath": "/badges_images/vporiad_i_color.svg",
       "Country": "Польща",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -729,7 +730,7 @@
     {
       "Id": "vporyad-i",
       "Title": "Впоряд І",
-      "ImagePath": "/images/badges/vporiad_i_color.svg",
+      "ImagePath": "/badges_images/vporiad_i_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -742,7 +743,7 @@
     {
       "Id": "vporyad-ii",
       "Title": "Впоряд ІI",
-      "ImagePath": "/images/badges/vporiad_ii_color.svg",
+      "ImagePath": "/badges_images/vporiad_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -755,7 +756,7 @@
     {
       "Id": "vporyad-iii",
       "Title": "Впоряд ІII",
-      "ImagePath": "/images/badges/vporiad_iii_color.svg",
+      "ImagePath": "/badges_images/vporiad_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -768,7 +769,7 @@
     {
       "Id": "vporyad-ii-2",
       "Title": "Впоряд ІІ",
-      "ImagePath": "/images/badges/vporiad_ii_color.svg",
+      "ImagePath": "/badges_images/vporiad_ii_color.svg",
       "Country": "Польща",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -781,7 +782,7 @@
     {
       "Id": "vporyad-iii-2",
       "Title": "Впоряд ІІІ",
-      "ImagePath": "/images/badges/vporiad_iii_color.svg",
+      "ImagePath": "/badges_images/vporiad_iii_color.svg",
       "Country": "Польща",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -794,7 +795,7 @@
     {
       "Id": "vijskovyk-i",
       "Title": "Військовик І",
-      "ImagePath": "/images/badges/viiskovyk_i_color.svg",
+      "ImagePath": "/badges_images/viiskovyk_i_color.svg",
       "Country": "Україна",
       "Specialization": "Військова",
       "Status": "Затверджена",
@@ -807,7 +808,7 @@
     {
       "Id": "vijskovyk-ii",
       "Title": "Військовик ІІ",
-      "ImagePath": "/images/badges/viiskovyk_ii_color.svg",
+      "ImagePath": "/badges_images/viiskovyk_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Військова",
       "Status": "Затверджена",
@@ -820,7 +821,7 @@
     {
       "Id": "vijskovyk-iii",
       "Title": "Військовик ІІІ",
-      "ImagePath": "/images/badges/viiskovyk_iii_color.svg",
+      "ImagePath": "/badges_images/viiskovyk_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Військова",
       "Status": "Затверджена",
@@ -833,7 +834,7 @@
     {
       "Id": "vilnyj-hudozhnyk-vilna-hudozhnyczya-i",
       "Title": "Вільний художник/вільна художниця І",
-      "ImagePath": "/images/badges/vilnyj-hudozhnyk-ch_b.svg",
+      "ImagePath": "/badges_images/vilnyj-hudozhnyk-ch_b.svg",
       "Country": "Польща",
       "Specialization": "Мистецька",
       "Status": "Апробаційна",
@@ -846,7 +847,7 @@
     {
       "Id": "vitrylnycztvo-iii-proba",
       "Title": "Вітрильництво - ІІІ проба",
-      "ImagePath": "/images/badges/vitrylnytstvo_iii_color.svg",
+      "ImagePath": "/badges_images/vitrylnytstvo_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Морська",
       "Status": "Затверджена",
@@ -859,7 +860,7 @@
     {
       "Id": "genealogiya-ii-proba",
       "Title": "Генеалогія - ІІ проба",
-      "ImagePath": "/images/badges/henealohiia_ii_color.svg",
+      "ImagePath": "/badges_images/henealohiia_ii_color.svg",
       "Country": "",
       "Specialization": "Етнографічна",
       "Status": "Затверджена",
@@ -874,7 +875,7 @@
     {
       "Id": "gotovnist-do-nadzvychajnyh-sytuaczij-ii-proba",
       "Title": "Готовність до надзвичайних ситуацій - ІІ проба",
-      "ImagePath": "/images/badges/hotovnist_do_nadzvychainykh_sytuatsii_ii_color.svg",
+      "ImagePath": "/badges_images/hotovnist_do_nadzvychainykh_sytuatsii_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -887,7 +888,7 @@
     {
       "Id": "grafika-iii-proba",
       "Title": "Графіка - ІІІ проба",
-      "ImagePath": "/images/badges/hrafika_iii_color.svg",
+      "ImagePath": "/badges_images/hrafika_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Мистецька",
       "Status": "Затверджена",
@@ -900,7 +901,7 @@
     {
       "Id": "grafichnyj-dyzajn-i",
       "Title": "Графічний дизайн I",
-      "ImagePath": "/images/badges/hrafichnyi_dyzain_i_color.svg",
+      "ImagePath": "/badges_images/hrafichnyi_dyzain_i_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -913,7 +914,7 @@
     {
       "Id": "grafichnyj-dyzajn-ii",
       "Title": "Графічний дизайн IІ",
-      "ImagePath": "/images/badges/hrafichnyi_dyzain_ii_color.svg",
+      "ImagePath": "/badges_images/hrafichnyi_dyzain_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -926,7 +927,7 @@
     {
       "Id": "grafichnyj-dyzajn-iii",
       "Title": "Графічний дизайн IІІ",
-      "ImagePath": "/images/badges/hrafichnyi_dyzain_iii_color.svg",
+      "ImagePath": "/badges_images/hrafichnyi_dyzain_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -939,7 +940,7 @@
     {
       "Id": "grafichnyj-dyzajn-i-2",
       "Title": "Графічний дизайн І",
-      "ImagePath": "/images/badges/hrafichnyi_dyzain_i_color.svg",
+      "ImagePath": "/badges_images/hrafichnyi_dyzain_i_color.svg",
       "Country": "Польща",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -952,7 +953,7 @@
     {
       "Id": "grafichnyj-dyzajn-ii-2",
       "Title": "Графічний дизайн ІІ",
-      "ImagePath": "/images/badges/hrafichnyi_dyzain_ii_color.svg",
+      "ImagePath": "/badges_images/hrafichnyi_dyzain_ii_color.svg",
       "Country": "Польща",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -965,7 +966,7 @@
     {
       "Id": "grafichnyj-dyzajn-iii-2",
       "Title": "Графічний дизайн ІІІ",
-      "ImagePath": "/images/badges/hrafichnyi_dyzain_iii_color.svg",
+      "ImagePath": "/badges_images/hrafichnyi_dyzain_iii_color.svg",
       "Country": "Польща",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -978,7 +979,7 @@
     {
       "Id": "gromadske-zdorovya-iii-proba",
       "Title": "Громадське здоров’я - ІІІ проба",
-      "ImagePath": "/images/badges/hromadske_zdorovia_iii_color.svg",
+      "ImagePath": "/badges_images/hromadske_zdorovia_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -993,7 +994,7 @@
     {
       "Id": "gromadyanyn-krayiny-iii-proba",
       "Title": "Громадянин країни - ІІІ проба",
-      "ImagePath": "/images/badges/hromadianyn_krainy_iii_color.svg",
+      "ImagePath": "/badges_images/hromadianyn_krainy_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -1006,7 +1007,7 @@
     {
       "Id": "gromadyanyn-mista-iii-proba",
       "Title": "Громадянин міста - ІІІ проба",
-      "ImagePath": "/images/badges/hromadianyn_mista_iii_color.svg",
+      "ImagePath": "/badges_images/hromadianyn_mista_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -1019,7 +1020,7 @@
     {
       "Id": "gromadyanyn-svitu-ii-proba",
       "Title": "Громадянин світу - ІІ проба",
-      "ImagePath": "/images/badges/hromadianyn_svitu_ii_color.svg",
+      "ImagePath": "/badges_images/hromadianyn_svitu_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -1032,7 +1033,7 @@
     {
       "Id": "dva-pera",
       "Title": "Два Пера",
-      "ImagePath": "/images/badges/dva_pera_color.svg",
+      "ImagePath": "/badges_images/dva_pera_color.svg",
       "Country": "Польща",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -1045,7 +1046,7 @@
     {
       "Id": "dva-pera-ii-proba",
       "Title": "Два пера - ІІ проба",
-      "ImagePath": "/images/badges/dva_pera_color.svg",
+      "ImagePath": "/badges_images/dva_pera_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -1058,7 +1059,7 @@
     {
       "Id": "deltaplaneryzm-iii-proba",
       "Title": "Дельтапланеризм - ІІІ проба",
-      "ImagePath": "/images/badges/deltaplaneryzm_iii_color.svg",
+      "ImagePath": "/badges_images/deltaplaneryzm_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Летунська",
       "Status": "Затверджена",
@@ -1071,7 +1072,7 @@
     {
       "Id": "doglyad-za-kinmy-i",
       "Title": "Догляд за кіньми I",
-      "ImagePath": "/images/badges/dohliad_za_kinmy_i_color.svg",
+      "ImagePath": "/badges_images/dohliad_za_kinmy_i_color.svg",
       "Country": "Україна",
       "Specialization": "Кінна",
       "Status": "Затверджена",
@@ -1084,7 +1085,7 @@
     {
       "Id": "doglyad-za-kinmy-ii",
       "Title": "Догляд за кіньми II",
-      "ImagePath": "/images/badges/dohliad_za_kinmy_ii_color.svg",
+      "ImagePath": "/badges_images/dohliad_za_kinmy_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Кінна",
       "Status": "Затверджена",
@@ -1097,7 +1098,7 @@
     {
       "Id": "doglyad-za-kinmy-iii",
       "Title": "Догляд за кіньми III",
-      "ImagePath": "/images/badges/dohliad_za_kinmy_iii_color.svg",
+      "ImagePath": "/badges_images/dohliad_za_kinmy_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Кінна",
       "Status": "Затверджена",
@@ -1110,7 +1111,7 @@
     {
       "Id": "domashnya-zaradnist-i-2",
       "Title": "Домашня зарадність І",
-      "ImagePath": "/images/badges/domashnia_zaradnist_i_color.svg",
+      "ImagePath": "/badges_images/domashnia_zaradnist_i_color.svg",
       "Country": "Польща",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -1123,7 +1124,7 @@
     {
       "Id": "domashnya-zaradnist-i",
       "Title": "Домашня зарадність І",
-      "ImagePath": "/images/badges/domashnia_zaradnist_i_color.svg",
+      "ImagePath": "/badges_images/domashnia_zaradnist_i_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -1136,7 +1137,7 @@
     {
       "Id": "domashnya-zaradnist-ii-2",
       "Title": "Домашня зарадність ІІ",
-      "ImagePath": "/images/badges/domashnia_zaradnist_ii_color.svg",
+      "ImagePath": "/badges_images/domashnia_zaradnist_ii_color.svg",
       "Country": "Польща",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -1149,7 +1150,7 @@
     {
       "Id": "domashnya-zaradnist-ii",
       "Title": "Домашня зарадність ІІ",
-      "ImagePath": "/images/badges/domashnia_zaradnist_ii_color.svg",
+      "ImagePath": "/badges_images/domashnia_zaradnist_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -1162,7 +1163,7 @@
     {
       "Id": "domashnya-zaradnist-iii-2",
       "Title": "Домашня зарадність ІІІ",
-      "ImagePath": "/images/badges/domashnia_zaradnist_iii_color.svg",
+      "ImagePath": "/badges_images/domashnia_zaradnist_iii_color.svg",
       "Country": "Польща",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -1175,7 +1176,7 @@
     {
       "Id": "domashnya-zaradnist-iii",
       "Title": "Домашня зарадність ІІІ",
-      "ImagePath": "/images/badges/domashnia_zaradnist_iii_color.svg",
+      "ImagePath": "/badges_images/domashnia_zaradnist_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -1188,7 +1189,7 @@
     {
       "Id": "ekolog-i",
       "Title": "Еколог І",
-      "ImagePath": "/images/badges/ekoloh_i_color.svg",
+      "ImagePath": "/badges_images/ekoloh_i_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -1201,7 +1202,7 @@
     {
       "Id": "ekolog-ii",
       "Title": "Еколог ІІ",
-      "ImagePath": "/images/badges/ekoloh_ii_color.svg",
+      "ImagePath": "/badges_images/ekoloh_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -1214,7 +1215,7 @@
     {
       "Id": "ekolog-iii",
       "Title": "Еколог ІІІ",
-      "ImagePath": "/images/badges/ekoloh_iii_color.svg",
+      "ImagePath": "/badges_images/ekoloh_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -1227,7 +1228,7 @@
     {
       "Id": "ekologiya-iii-proba",
       "Title": "Екологія ІІІ проба",
-      "ImagePath": "/images/badges/ekolohiia_iii_color.svg",
+      "ImagePath": "/badges_images/ekolohiia_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -1242,7 +1243,7 @@
     {
       "Id": "ekonomist-i-2",
       "Title": "Економіст І",
-      "ImagePath": "/images/badges/ekonomist_i_color.svg",
+      "ImagePath": "/badges_images/ekonomist_i_color.svg",
       "Country": "Польща",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -1255,7 +1256,7 @@
     {
       "Id": "ekonomist-i",
       "Title": "Економіст І",
-      "ImagePath": "/images/badges/ekonomist_i_color.svg",
+      "ImagePath": "/badges_images/ekonomist_i_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -1268,7 +1269,7 @@
     {
       "Id": "ekonomist-ii-2",
       "Title": "Економіст ІІ",
-      "ImagePath": "/images/badges/ekonomist_ii_color.svg",
+      "ImagePath": "/badges_images/ekonomist_ii_color.svg",
       "Country": "Польща",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -1281,7 +1282,7 @@
     {
       "Id": "ekonomist-ii",
       "Title": "Економіст ІІ",
-      "ImagePath": "/images/badges/ekonomist_ii_color.svg",
+      "ImagePath": "/badges_images/ekonomist_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -1294,7 +1295,7 @@
     {
       "Id": "ekonomist-iii-2",
       "Title": "Економіст ІІІ",
-      "ImagePath": "/images/badges/ekonomist_iii_color.svg",
+      "ImagePath": "/badges_images/ekonomist_iii_color.svg",
       "Country": "Польща",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -1307,7 +1308,7 @@
     {
       "Id": "ekonomist-iii",
       "Title": "Економіст ІІІ",
-      "ImagePath": "/images/badges/ekonomist_iii_color.svg",
+      "ImagePath": "/badges_images/ekonomist_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -1320,7 +1321,7 @@
     {
       "Id": "etnograf-i-2",
       "Title": "Етнограф І",
-      "ImagePath": "/images/badges/etnohraf_i_color.svg",
+      "ImagePath": "/badges_images/etnohraf_i_color.svg",
       "Country": "Польща",
       "Specialization": "Етнографічна",
       "Status": "Затверджена",
@@ -1333,7 +1334,7 @@
     {
       "Id": "etnograf-i",
       "Title": "Етнограф І",
-      "ImagePath": "/images/badges/etnohraf_i_color.svg",
+      "ImagePath": "/badges_images/etnohraf_i_color.svg",
       "Country": "Україна",
       "Specialization": "Етнографічна",
       "Status": "Затверджена",
@@ -1346,7 +1347,7 @@
     {
       "Id": "etnograf-ii",
       "Title": "Етнограф ІI",
-      "ImagePath": "/images/badges/etnohraf_ii_color.svg",
+      "ImagePath": "/badges_images/etnohraf_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Етнографічна",
       "Status": "Затверджена",
@@ -1359,7 +1360,7 @@
     {
       "Id": "etnograf-iii",
       "Title": "Етнограф ІII",
-      "ImagePath": "/images/badges/etnohraf_iii_color.svg",
+      "ImagePath": "/badges_images/etnohraf_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Етнографічна",
       "Status": "Затверджена",
@@ -1372,7 +1373,7 @@
     {
       "Id": "etnograf-ii-2",
       "Title": "Етнограф ІІ",
-      "ImagePath": "/images/badges/etnohraf_ii_color.svg",
+      "ImagePath": "/badges_images/etnohraf_ii_color.svg",
       "Country": "Польща",
       "Specialization": "Етнографічна",
       "Status": "Затверджена",
@@ -1385,7 +1386,7 @@
     {
       "Id": "etnograf-iii-2",
       "Title": "Етнограф ІІІ",
-      "ImagePath": "/images/badges/etnohraf_iii_color.svg",
+      "ImagePath": "/badges_images/etnohraf_iii_color.svg",
       "Country": "Польща",
       "Specialization": "Етнографічна",
       "Status": "Затверджена",
@@ -1398,7 +1399,7 @@
     {
       "Id": "zhurnalistyka-i-proba",
       "Title": "Журналістика - І проба",
-      "ImagePath": "/images/badges/zhurnalistyka_i_color.svg",
+      "ImagePath": "/badges_images/zhurnalistyka_i_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -1411,7 +1412,7 @@
     {
       "Id": "zapobigannya-zlochynnosti-iii-proba",
       "Title": "Запобігання злочинності - ІІІ проба",
-      "ImagePath": "/images/badges/zapobihannia_zlochynnosti_iii_color.svg",
+      "ImagePath": "/badges_images/zapobihannia_zlochynnosti_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -1424,7 +1425,7 @@
     {
       "Id": "zbroyeznavstvo-i-ii-proba",
       "Title": "Зброєзнавство І - ІІ проба",
-      "ImagePath": "/images/badges/zbroieznavstvo_i_color.svg",
+      "ImagePath": "/badges_images/zbroieznavstvo_i_color.svg",
       "Country": "Україна",
       "Specialization": "Військова",
       "Status": "Апробаційна",
@@ -1437,7 +1438,7 @@
     {
       "Id": "zbroyeznavstvo-ii-iii-proba",
       "Title": "Зброєзнавство ІІ - ІІІ проба",
-      "ImagePath": "/images/badges/zbroieznavstvo_ii_color.svg",
+      "ImagePath": "/badges_images/zbroieznavstvo_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Військова",
       "Status": "Апробаційна",
@@ -1450,7 +1451,7 @@
     {
       "Id": "znavecz-nazva-kompyuternoyi-programy-ii-proba",
       "Title": "Знавець …. (назва комп’ютерної програми) - ІІ проба",
-      "ImagePath": "/images/badges/znavets_komp_proh_ii_color.svg",
+      "ImagePath": "/badges_images/znavets_komp_proh_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -1463,7 +1464,7 @@
     {
       "Id": "znavecz-kompyuteriv-i",
       "Title": "Знавець комп’ютерів І",
-      "ImagePath": "/images/badges/znavets_kompiuteriv_i_color.svg",
+      "ImagePath": "/badges_images/znavets_kompiuteriv_i_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -1476,7 +1477,7 @@
     {
       "Id": "znavecz-kompyuteriv-ii",
       "Title": "Знавець комп’ютерів ІI",
-      "ImagePath": "/images/badges/znavets_kompiuteriv_ii_color.svg",
+      "ImagePath": "/badges_images/znavets_kompiuteriv_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -1489,7 +1490,7 @@
     {
       "Id": "znavecz-kompyuteriv-iii",
       "Title": "Знавець комп’ютерів ІII",
-      "ImagePath": "/images/badges/znavets_kompiuteriv_iii_color.svg",
+      "ImagePath": "/badges_images/znavets_kompiuteriv_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -1502,7 +1503,7 @@
     {
       "Id": "znavecz-kompyuteriv-i-2",
       "Title": "Знавець комп’ютерів І",
-      "ImagePath": "/images/badges/znavets_kompiuteriv_i_color.svg",
+      "ImagePath": "/badges_images/znavets_kompiuteriv_i_color.svg",
       "Country": "Польща",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -1515,7 +1516,7 @@
     {
       "Id": "znavecz-kompyuteriv-ii-2",
       "Title": "Знавець комп’ютерів ІІ",
-      "ImagePath": "/images/badges/znavets_kompiuteriv_ii_color-1.svg",
+      "ImagePath": "/badges_images/znavets_kompiuteriv_ii_color-1.svg",
       "Country": "Польща",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -1528,7 +1529,7 @@
     {
       "Id": "znavecz-kompyuteriv-iii-2",
       "Title": "Знавець комп’ютерів ІІІ",
-      "ImagePath": "/images/badges/znavets_kompiuteriv_iii_color.svg",
+      "ImagePath": "/badges_images/znavets_kompiuteriv_iii_color.svg",
       "Country": "Польща",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -1541,7 +1542,7 @@
     {
       "Id": "znavecz-narodnogo-kalendarya-i-2",
       "Title": "Знавець народного календаря І",
-      "ImagePath": "/images/badges/znavets_narodnoho_kalendaria_i_color.svg",
+      "ImagePath": "/badges_images/znavets_narodnoho_kalendaria_i_color.svg",
       "Country": "Польща",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -1554,7 +1555,7 @@
     {
       "Id": "znavecz-narodnogo-kalendarya-i",
       "Title": "Знавець народного календаря І",
-      "ImagePath": "/images/badges/znavets_narodnoho_kalendaria_i_color.svg",
+      "ImagePath": "/badges_images/znavets_narodnoho_kalendaria_i_color.svg",
       "Country": "Україна",
       "Specialization": "Етнографічна",
       "Status": "Затверджена",
@@ -1567,7 +1568,7 @@
     {
       "Id": "znavecz-narodnogo-kalendarya-ii-2",
       "Title": "Знавець народного календаря ІІ",
-      "ImagePath": "/images/badges/znavets_narodnoho_kalendaria_ii_color.svg",
+      "ImagePath": "/badges_images/znavets_narodnoho_kalendaria_ii_color.svg",
       "Country": "Польща",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -1580,7 +1581,7 @@
     {
       "Id": "znavecz-narodnogo-kalendarya-ii",
       "Title": "Знавець народного календаря ІІ",
-      "ImagePath": "/images/badges/znavets_narodnoho_kalendaria_ii_color.svg",
+      "ImagePath": "/badges_images/znavets_narodnoho_kalendaria_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Етнографічна",
       "Status": "Затверджена",
@@ -1593,7 +1594,7 @@
     {
       "Id": "znavecz-narodnogo-kalendarya-iii",
       "Title": "Знавець народного календаря ІІІ",
-      "ImagePath": "/images/badges/znavets_narodnoho_kalendaria_iii_color.svg",
+      "ImagePath": "/badges_images/znavets_narodnoho_kalendaria_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Етнографічна",
       "Status": "Затверджена",
@@ -1606,7 +1607,7 @@
     {
       "Id": "znavecz-ukrayinskoyi-spadshhyny-v-polshhi-i",
       "Title": "Знавець української спадщини в Польщі І",
-      "ImagePath": "/images/badges/znavecz-ukrayinskoyi-spadshhyny-v-polshhi-1-ch_b.svg",
+      "ImagePath": "/badges_images/znavecz-ukrayinskoyi-spadshhyny-v-polshhi-1-ch_b.svg",
       "Country": "Польща",
       "Specialization": "Загальні вмілості",
       "Status": "Апробаційна",
@@ -1619,7 +1620,7 @@
     {
       "Id": "znavecz-ukrayinskoyi-spadshhyny-v-polshhi-ii",
       "Title": "Знавець української спадщини в Польщі ІI",
-      "ImagePath": "/images/badges/znavecz-ukrayinskoyi-spadshhyny-v-polshhi-2-ch_b.svg",
+      "ImagePath": "/badges_images/znavecz-ukrayinskoyi-spadshhyny-v-polshhi-2-ch_b.svg",
       "Country": "Польща",
       "Specialization": "Загальні вмілості",
       "Status": "Апробаційна",
@@ -1632,7 +1633,7 @@
     {
       "Id": "znavecz-ukrayinskoyi-spadshhyny-v-polshhi-iii",
       "Title": "Знавець української спадщини в Польщі ІII",
-      "ImagePath": "/images/badges/znavecz-ukrayinskoyi-spadshhyny-v-polshhi-3-ch_b.svg",
+      "ImagePath": "/badges_images/znavecz-ukrayinskoyi-spadshhyny-v-polshhi-3-ch_b.svg",
       "Country": "Польща",
       "Specialization": "Загальні вмілості",
       "Status": "",
@@ -1647,7 +1648,7 @@
     {
       "Id": "znavecz-nazva-kompyuternoyi-programy",
       "Title": "Знавець… (назва комп’ютерної програми)",
-      "ImagePath": "/images/badges/znavets_komp_proh_ii_color.svg",
+      "ImagePath": "/badges_images/znavets_komp_proh_ii_color.svg",
       "Country": "Польща",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -1660,7 +1661,7 @@
     {
       "Id": "kavaleriya-i",
       "Title": "Кавалерія I",
-      "ImagePath": "/images/badges/kavaleriia_i_color.svg",
+      "ImagePath": "/badges_images/kavaleriia_i_color.svg",
       "Country": "Україна",
       "Specialization": "Кінна",
       "Status": "Апробаційна",
@@ -1673,7 +1674,7 @@
     {
       "Id": "kavaleriya-ii",
       "Title": "Кавалерія II",
-      "ImagePath": "/images/badges/kavaleriia_ii_color.svg",
+      "ImagePath": "/badges_images/kavaleriia_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Кінна",
       "Status": "Апробаційна",
@@ -1686,7 +1687,7 @@
     {
       "Id": "kavaleriya-iii",
       "Title": "Кавалерія III",
-      "ImagePath": "/images/badges/kavaleriia_iii_color.svg",
+      "ImagePath": "/badges_images/kavaleriia_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Кінна",
       "Status": "Апробаційна",
@@ -1699,7 +1700,7 @@
     {
       "Id": "kajnokarstvo-ii-proba",
       "Title": "Кайнокарство - ІІ проба",
-      "ImagePath": "/images/badges/kainokarstvo_ii_color.svg",
+      "ImagePath": "/badges_images/kainokarstvo_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Морська",
       "Status": "Затверджена",
@@ -1712,7 +1713,7 @@
     {
       "Id": "kartografiya",
       "Title": "Картографія",
-      "ImagePath": "/images/badges/kartohrafiia_ii_color.svg",
+      "ImagePath": "/badges_images/kartohrafiia_ii_color.svg",
       "Country": "Польща",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -1725,7 +1726,7 @@
     {
       "Id": "kartografiya-ii-proba",
       "Title": "Картографія - ІІ проба",
-      "ImagePath": "/images/badges/kartohrafiia_ii_color.svg",
+      "ImagePath": "/badges_images/kartohrafiia_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -1738,7 +1739,7 @@
     {
       "Id": "keramika-i",
       "Title": "Кераміка І",
-      "ImagePath": "/images/badges/keramika_i_color.svg",
+      "ImagePath": "/badges_images/keramika_i_color.svg",
       "Country": "Україна",
       "Specialization": "Мистецька",
       "Status": "Затверджена",
@@ -1751,7 +1752,7 @@
     {
       "Id": "keramika-ii",
       "Title": "Кераміка ІІ",
-      "ImagePath": "/images/badges/keramika_ii_color.svg",
+      "ImagePath": "/badges_images/keramika_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Мистецька",
       "Status": "Затверджена",
@@ -1764,7 +1765,7 @@
     {
       "Id": "kerivnyk-proyektiv-i-ii-proba",
       "Title": "Керівник проєктів I - ІІ проба",
-      "ImagePath": "/images/badges/kerivnyk_proiektiv_i_color.svg",
+      "ImagePath": "/badges_images/kerivnyk_proiektiv_i_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -1777,7 +1778,7 @@
     {
       "Id": "kerivnyk-proyektiv-ii-iii-proba",
       "Title": "Керівник проєктів II - ІІІ проба",
-      "ImagePath": "/images/badges/kerivnyk_proiektiv_ii_color.svg",
+      "ImagePath": "/badges_images/kerivnyk_proiektiv_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -1790,7 +1791,7 @@
     {
       "Id": "kerivnyk-proyektiv-i",
       "Title": "Керівник проєктів І",
-      "ImagePath": "/images/badges/kerivnyk_proiektiv_i_color-1.svg",
+      "ImagePath": "/badges_images/kerivnyk_proiektiv_i_color-1.svg",
       "Country": "Польща",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -1803,7 +1804,7 @@
     {
       "Id": "kerivnyk-proyektiv-ii",
       "Title": "Керівник проєктів ІІ",
-      "ImagePath": "/images/badges/kerivnyk_proiektiv_ii_color.svg",
+      "ImagePath": "/badges_images/kerivnyk_proiektiv_ii_color.svg",
       "Country": "Польща",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -1816,7 +1817,7 @@
     {
       "Id": "komandnyj-gravecz",
       "Title": "Командний гравець",
-      "ImagePath": "/images/badges/komandnyi_hravets_i_color.svg",
+      "ImagePath": "/badges_images/komandnyi_hravets_i_color.svg",
       "Country": "Польща",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -1829,7 +1830,7 @@
     {
       "Id": "komandnyj-gravecz-i-proba",
       "Title": "Командний гравець - І проба",
-      "ImagePath": "/images/badges/komandnyi_hravets_i_color.svg",
+      "ImagePath": "/badges_images/komandnyi_hravets_i_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -1842,7 +1843,7 @@
     {
       "Id": "kompyuterna-verstka-iii-proba",
       "Title": "Комп’ютерна верстка - ІІІ проба",
-      "ImagePath": "/images/badges/kompiuterna_verstka_iii_color.svg",
+      "ImagePath": "/badges_images/kompiuterna_verstka_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -1855,7 +1856,7 @@
     {
       "Id": "kompyuterna-grafika-ii-proba",
       "Title": "Комп’ютерна графіка - ІІ проба",
-      "ImagePath": "/images/badges/kompiuterna_hrafika_ii_color.svg",
+      "ImagePath": "/badges_images/kompiuterna_hrafika_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -1868,7 +1869,7 @@
     {
       "Id": "komunikacziya-ii-proba",
       "Title": "Комунікація - ІІ проба",
-      "ImagePath": "/images/badges/komunikatsiia_ii_color.svg",
+      "ImagePath": "/badges_images/komunikatsiia_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -1881,7 +1882,7 @@
     {
       "Id": "korystuvach-internetu-i",
       "Title": "Користувач інтернету І",
-      "ImagePath": "/images/badges/korystuvach_internetu_i_color.svg",
+      "ImagePath": "/badges_images/korystuvach_internetu_i_color.svg",
       "Country": "Польща",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -1894,7 +1895,7 @@
     {
       "Id": "korystuvach-internetu-i-ii-proba",
       "Title": "Користувач Інтернету І - ІІ проба",
-      "ImagePath": "/images/badges/korystuvach_internetu_i_color.svg",
+      "ImagePath": "/badges_images/korystuvach_internetu_i_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -1907,7 +1908,7 @@
     {
       "Id": "korystuvach-internetu-ii",
       "Title": "Користувач інтернету ІІ",
-      "ImagePath": "/images/badges/korystuvach_internetu_ii_color.svg",
+      "ImagePath": "/badges_images/korystuvach_internetu_ii_color.svg",
       "Country": "Польща",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -1920,7 +1921,7 @@
     {
       "Id": "korystuvach-internetu-ii-iii-proba",
       "Title": "Користувач Інтернету ІІ - ІІІ проба",
-      "ImagePath": "/images/badges/korystuvach_internetu_ii_color.svg",
+      "ImagePath": "/badges_images/korystuvach_internetu_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -1933,7 +1934,7 @@
     {
       "Id": "krayeznavstvo-i",
       "Title": "Краєзнавство І",
-      "ImagePath": "/images/badges/kraieznavstvo_i_color.svg",
+      "ImagePath": "/badges_images/kraieznavstvo_i_color.svg",
       "Country": "Україна",
       "Specialization": "Військова",
       "Status": "Апробаційна",
@@ -1946,7 +1947,7 @@
     {
       "Id": "krayeznavstvo-ii",
       "Title": "Краєзнавство ІІ",
-      "ImagePath": "/images/badges/kraieznavstvo_ii_color.svg",
+      "ImagePath": "/badges_images/kraieznavstvo_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Військова",
       "Status": "Апробаційна",
@@ -1959,7 +1960,7 @@
     {
       "Id": "krayeznavstvo-iii",
       "Title": "Краєзнавство ІІІ",
-      "ImagePath": "/images/badges/kraieznavstvo_iii_color.svg",
+      "ImagePath": "/badges_images/kraieznavstvo_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Військова",
       "Status": "Апробаційна",
@@ -1972,7 +1973,7 @@
     {
       "Id": "kuhovarennya",
       "Title": "Куховарення",
-      "ImagePath": "/images/badges/kukhovarennia_i_color.svg",
+      "ImagePath": "/badges_images/kukhovarennia_i_color.svg",
       "Country": "Польща",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -1985,7 +1986,7 @@
     {
       "Id": "kuhovarennya-i-proba",
       "Title": "Куховарення - І проба",
-      "ImagePath": "/images/badges/kukhovarennia_i_color.svg",
+      "ImagePath": "/badges_images/kukhovarennia_i_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -1998,7 +1999,7 @@
     {
       "Id": "kinna-veterynariya-i",
       "Title": "Кінна ветеринарія I",
-      "ImagePath": "/images/badges/kinna_veterynariia_i_color.svg",
+      "ImagePath": "/badges_images/kinna_veterynariia_i_color.svg",
       "Country": "Україна",
       "Specialization": "Кінна",
       "Status": "Затверджена",
@@ -2011,7 +2012,7 @@
     {
       "Id": "kinna-veterynariya-ii",
       "Title": "Кінна ветеринарія II",
-      "ImagePath": "/images/badges/kinna_veterynariia_ii_color.svg",
+      "ImagePath": "/badges_images/kinna_veterynariia_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Кінна",
       "Status": "Затверджена",
@@ -2024,7 +2025,7 @@
     {
       "Id": "kinna-veterynariya-iii",
       "Title": "Кінна ветеринарія III",
-      "ImagePath": "/images/badges/kinna_veterynariia_iii_color.svg",
+      "ImagePath": "/badges_images/kinna_veterynariia_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Кінна",
       "Status": "Затверджена",
@@ -2037,7 +2038,7 @@
     {
       "Id": "kinne-mandrivnycztvo-i-ii-proba",
       "Title": "Кінне мандрівництво I - ІІ проба",
-      "ImagePath": "/images/badges/kinne_mandrivnytstvo_i_color.svg",
+      "ImagePath": "/badges_images/kinne_mandrivnytstvo_i_color.svg",
       "Country": "Україна",
       "Specialization": "Кінна",
       "Status": "Апробаційна",
@@ -2050,7 +2051,7 @@
     {
       "Id": "kinne-mandrivnycztvo-ii-iii-proba",
       "Title": "Кінне мандрівництво II - ІІІ проба",
-      "ImagePath": "/images/badges/kinne_mandrivnytstvo_ii_color.svg",
+      "ImagePath": "/badges_images/kinne_mandrivnytstvo_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Кінна",
       "Status": "Апробаційна",
@@ -2063,7 +2064,7 @@
     {
       "Id": "legka-atletyka-i-proba",
       "Title": "Легка атлетика - І проба",
-      "ImagePath": "/images/badges/lehka_atletyka_i_color.svg",
+      "ImagePath": "/badges_images/lehka_atletyka_i_color.svg",
       "Country": "Україна",
       "Specialization": "Спортивна",
       "Status": "Затверджена",
@@ -2076,7 +2077,7 @@
     {
       "Id": "leshhetarstvo-alpijskogo-stylyu-ii-proba",
       "Title": "Лещетарство альпійського стилю - ІІ проба",
-      "ImagePath": "/images/badges/leshchetarstvo_nordiiskoho_styliu_iii_color.svg",
+      "ImagePath": "/badges_images/leshchetarstvo_nordiiskoho_styliu_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Сноубординг та лещетарство",
       "Status": "Затверджена",
@@ -2089,7 +2090,7 @@
     {
       "Id": "leshhetarstvo-nordijskogo-stylyu-iii-proba",
       "Title": "Лещетарство нордійського стилю - ІІІ проба",
-      "ImagePath": "/images/badges/leshchetarske_mandrivnytstvo_iii_color.svg",
+      "ImagePath": "/badges_images/leshchetarske_mandrivnytstvo_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Сноубординг та лещетарство",
       "Status": "Затверджена",
@@ -2098,13 +2099,13 @@
       "SeekerRequirements": "І. Здобути вмілість «Картографія» для свого віку.\n<br>ІІ. Бажано мати власне лещетарське спорядження: лещета, черевики лещетарські, палички.\n<br>IIІ. Знати і вміти застосовувати на практиці подане нижче.\n\n1. Вміти підібрати лещета і все інше необхідне спорядження для:\n\nа) прогульки по біговій трасі;\n<br>б) прогульки по непідготовленій (дикій, пересіченій) трасі.\n\n2. Вибрати одяг відповідно до завдань терену і погоди: курточка (комбінезон), штани, рукавиці, шапочка, окуляри, шкарпетки.\n<br>3. Підібрати мазі залежно від погодних умов, вміти наносити їх на лещета.\n<br>4. Знати правила безпеки на лещетарських мандрівках та поведінки на бігових трасах.\n<br>5. Правильно носити, доглядати та зберігати лещетарське спорядження.\n<br>6. Знати основні види небезпеки в лещетарстві нордійського стилю (лавини, обмороження, сонячні опіки, зневоднення організму, пошкодження очей).\n\nIV. На біговій трасі середньої складності виконати такі технічні елементи:\n\n1. Піднімання вгору:\n\nа) прямо;\n<br>б) драбинкою;\n<br>в) ялинкою;\n<br>г) пів’ялинкою.\n\n2. Розворот на 1800 на місці в обидві сторони.\n<br>3. Правильне падіння у критичній ситуації.\n<br>4. Правильне вставання після падіння.\n<br>5. Спуск в основній стійці:\n\nа) прямий спуск з подальшим переходом до ковзаючого плуга та гальмуючого плуга;\n<br>б) спуск з подальшим поворотом переступанням і зупинкою.\n\n6. Змінний лещетарський хід.\n<br>7. Перемінний двокроковий хід.\n<br>8. Одночасний безкроковий хід.\n<br>9. Ковзанярський хід.\n\nV. При достатньому рівні підготовки і володіння лещетарською технікою нордійського стилю провести мандрівку на лещетах протяжністю 10-15 км по підготовленій біговій трасі або 7-10 км по непідготовленій трасі.",
       "InstructorRequirements": "Даний розділ ще не є заповнений інформацією!",
       "FixNotes": [
-        "LastUpdated has been changed from 'вт, 28.04.202' to 'вт, 28.04.2020'."
+        "LastUpdated has been fixed from \"вт, 28.04.202\" to \"вт, 28.04.2020\"."
       ]
     },
     {
       "Id": "leshhetarske-mandrivnycztvo-iii-proba",
       "Title": "Лещетарське мандрівництво - ІІІ проба",
-      "ImagePath": "/images/badges/leshchetarske_mandrivnytstvo_iii_color.svg",
+      "ImagePath": "/badges_images/leshchetarske_mandrivnytstvo_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Сноубординг та лещетарство",
       "Status": "Затверджена",
@@ -2119,7 +2120,7 @@
     {
       "Id": "luchnyk-i-ii-proba-onovlena-vmilist-strilba-z-luka",
       "Title": "Лучник І - ІІ проба (оновлена вмілість «Стрільба з лука)",
-      "ImagePath": "/images/badges/luchnyk_i_color.svg",
+      "ImagePath": "/badges_images/luchnyk_i_color.svg",
       "Country": "Україна",
       "Specialization": "Військова",
       "Status": "Апробаційна",
@@ -2132,7 +2133,7 @@
     {
       "Id": "luchnyk-ii-iii-proba-onovlena-vmilist-strilba-z-luka",
       "Title": "Лучник ІІ - ІІІ проба (оновлена вмілість «Стрільба з лука)",
-      "ImagePath": "/images/badges/luchnyk_ii_color.svg",
+      "ImagePath": "/badges_images/luchnyk_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Військова",
       "Status": "Апробаційна",
@@ -2145,7 +2146,7 @@
     {
       "Id": "lyubytel-ka-mystecztva-i",
       "Title": "Любитель/ка мистецтва І",
-      "ImagePath": "/images/badges/liubytel_mystetstva_i_color.svg",
+      "ImagePath": "/badges_images/liubytel_mystetstva_i_color.svg",
       "Country": "Україна",
       "Specialization": "Мистецька",
       "Status": "Затверджена",
@@ -2158,7 +2159,7 @@
     {
       "Id": "lyubytel-ka-mystecztva-ii",
       "Title": "Любитель/ка мистецтва ІІ",
-      "ImagePath": "/images/badges/liubytel_mystetstva_ii_color.svg",
+      "ImagePath": "/badges_images/liubytel_mystetstva_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Мистецька",
       "Status": "Затверджена",
@@ -2171,7 +2172,7 @@
     {
       "Id": "lyubytel-ka-mystecztva-iii",
       "Title": "Любитель/ка мистецтва ІІІ",
-      "ImagePath": "/images/badges/liubytel_mystetstva_iii_color.svg",
+      "ImagePath": "/badges_images/liubytel_mystetstva_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Мистецька",
       "Status": "Затверджена",
@@ -2184,7 +2185,7 @@
     {
       "Id": "litayuchyj-dysk-i-2",
       "Title": "Літаючий диск І",
-      "ImagePath": "/images/badges/litaiuchyi_dysk_i_color.svg",
+      "ImagePath": "/badges_images/litaiuchyi_dysk_i_color.svg",
       "Country": "Польща",
       "Specialization": "Спортивна",
       "Status": "Затверджена",
@@ -2197,7 +2198,7 @@
     {
       "Id": "litayuchyj-dysk-i",
       "Title": "Літаючий диск І",
-      "ImagePath": "/images/badges/litaiuchyi_dysk_i_color.svg",
+      "ImagePath": "/badges_images/litaiuchyi_dysk_i_color.svg",
       "Country": "Україна",
       "Specialization": "Спортивна",
       "Status": "Затверджена",
@@ -2210,7 +2211,7 @@
     {
       "Id": "litayuchyj-dysk-ii-2",
       "Title": "Літаючий диск ІІ",
-      "ImagePath": "/images/badges/litaiuchyi_dysk_ii_color.svg",
+      "ImagePath": "/badges_images/litaiuchyi_dysk_ii_color.svg",
       "Country": "Польща",
       "Specialization": "Спортивна",
       "Status": "Затверджена",
@@ -2223,7 +2224,7 @@
     {
       "Id": "litayuchyj-dysk-ii",
       "Title": "Літаючий диск ІІ",
-      "ImagePath": "/images/badges/litaiuchyi_dysk_ii_color.svg",
+      "ImagePath": "/badges_images/litaiuchyi_dysk_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Спортивна",
       "Status": "Затверджена",
@@ -2236,7 +2237,7 @@
     {
       "Id": "litayuchyj-dysk-iii-2",
       "Title": "Літаючий диск ІІІ",
-      "ImagePath": "/images/badges/litaiuchyi_dysk_iii_color.svg",
+      "ImagePath": "/badges_images/litaiuchyi_dysk_iii_color.svg",
       "Country": "Польща",
       "Specialization": "Спортивна",
       "Status": "Затверджена",
@@ -2249,7 +2250,7 @@
     {
       "Id": "litayuchyj-dysk-iii",
       "Title": "Літаючий диск ІІІ",
-      "ImagePath": "/images/badges/litaiuchyi_dysk_iii_color.svg",
+      "ImagePath": "/badges_images/litaiuchyi_dysk_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Спортивна",
       "Status": "Затверджена",
@@ -2262,7 +2263,7 @@
     {
       "Id": "mandrivnycztvo",
       "Title": "Мандрівництво",
-      "ImagePath": "/images/badges/mandrivnytstvo_ii_color.svg",
+      "ImagePath": "/badges_images/mandrivnytstvo_ii_color.svg",
       "Country": "Польща",
       "Specialization": "Загальні вмілостіМандрівництво",
       "Status": "Затверджена",
@@ -2275,7 +2276,7 @@
     {
       "Id": "mandrivnycztvo-ii-proba",
       "Title": "Мандрівництво - ІІ проба",
-      "ImagePath": "/images/badges/mandrivnytstvo_ii_color.svg",
+      "ImagePath": "/badges_images/mandrivnytstvo_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Мандрівництво",
       "Status": "Затверджена",
@@ -2288,7 +2289,7 @@
     {
       "Id": "maskuvannya-i",
       "Title": "Маскування І",
-      "ImagePath": "/images/badges/maskuvannia_i_color.svg",
+      "ImagePath": "/badges_images/maskuvannia_i_color.svg",
       "Country": "Україна",
       "Specialization": "Військова",
       "Status": "Затверджена",
@@ -2301,7 +2302,7 @@
     {
       "Id": "maskuvannya-ii",
       "Title": "Маскування ІІ",
-      "ImagePath": "/images/badges/maskuvannia_ii_color.svg",
+      "ImagePath": "/badges_images/maskuvannia_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Військова",
       "Status": "Затверджена",
@@ -2314,7 +2315,7 @@
     {
       "Id": "modelyuvannya-ii-proba",
       "Title": "Моделювання - ІІ проба",
-      "ImagePath": "/images/badges/modeliuvannia_ii_color.svg",
+      "ImagePath": "/badges_images/modeliuvannia_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -2327,7 +2328,7 @@
     {
       "Id": "morska-navigacziya-iii-proba",
       "Title": "Морська навігація - ІІІ проба",
-      "ImagePath": "/images/badges/morska_navihatsiia_iii_color.svg",
+      "ImagePath": "/badges_images/morska_navihatsiia_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Морська",
       "Status": "Затверджена",
@@ -2340,7 +2341,7 @@
     {
       "Id": "muzyka-i-2",
       "Title": "Музика І",
-      "ImagePath": "/images/badges/muzyka_i_color.svg",
+      "ImagePath": "/badges_images/muzyka_i_color.svg",
       "Country": "Польща",
       "Specialization": "Мистецька",
       "Status": "Затверджена",
@@ -2353,7 +2354,7 @@
     {
       "Id": "muzyka-i",
       "Title": "Музика І",
-      "ImagePath": "/images/badges/muzyka_i_color.svg",
+      "ImagePath": "/badges_images/muzyka_i_color.svg",
       "Country": "Україна",
       "Specialization": "Мистецька",
       "Status": "Затверджена",
@@ -2366,7 +2367,7 @@
     {
       "Id": "muzyka-ii-2",
       "Title": "Музика ІІ",
-      "ImagePath": "/images/badges/muzyka_ii_color.svg",
+      "ImagePath": "/badges_images/muzyka_ii_color.svg",
       "Country": "Польща",
       "Specialization": "Мистецька",
       "Status": "Затверджена",
@@ -2379,7 +2380,7 @@
     {
       "Id": "muzyka-ii",
       "Title": "Музика ІІ",
-      "ImagePath": "/images/badges/muzyka_ii_color.svg",
+      "ImagePath": "/badges_images/muzyka_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Мистецька",
       "Status": "Затверджена",
@@ -2392,7 +2393,7 @@
     {
       "Id": "muzyka-iii-2",
       "Title": "Музика ІІІ",
-      "ImagePath": "/images/badges/muzyka_iii_color.svg",
+      "ImagePath": "/badges_images/muzyka_iii_color.svg",
       "Country": "Польща",
       "Specialization": "Мистецька",
       "Status": "Затверджена",
@@ -2405,7 +2406,7 @@
     {
       "Id": "muzyka-iii",
       "Title": "Музика ІІІ",
-      "ImagePath": "/images/badges/muzyka_iii_color.svg",
+      "ImagePath": "/badges_images/muzyka_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Мистецька",
       "Status": "Затверджена",
@@ -2418,7 +2419,7 @@
     {
       "Id": "narodni-tanky-i",
       "Title": "Народні танки І",
-      "ImagePath": "/images/badges/tanky_i_color.svg",
+      "ImagePath": "/badges_images/tanky_i_color.svg",
       "Country": "Польща",
       "Specialization": "Спортивна",
       "Status": "Затверджена",
@@ -2431,7 +2432,7 @@
     {
       "Id": "narodni-tanky-ii",
       "Title": "Народні танки ІІ",
-      "ImagePath": "/images/badges/tanky_ii_color.svg",
+      "ImagePath": "/badges_images/tanky_ii_color.svg",
       "Country": "Польща",
       "Specialization": "Спортивна",
       "Status": "Затверджена",
@@ -2444,7 +2445,7 @@
     {
       "Id": "narodni-tanky-iii",
       "Title": "Народні танки ІІІ",
-      "ImagePath": "/images/badges/tanky_iii_color.svg",
+      "ImagePath": "/badges_images/tanky_iii_color.svg",
       "Country": "Польща",
       "Specialization": "Спортивна",
       "Status": "Затверджена",
@@ -2457,7 +2458,7 @@
     {
       "Id": "nastilni-igry-i-2",
       "Title": "Настільні ігри І",
-      "ImagePath": "/images/badges/nastilni-igry-i.png",
+      "ImagePath": "/badges_images/nastilni-igry-i.png",
       "Country": "Польща",
       "Specialization": "Рольового руху",
       "Status": "Апробаційна",
@@ -2470,7 +2471,7 @@
     {
       "Id": "nastilni-igry-i",
       "Title": "Настільні ігри І",
-      "ImagePath": "/images/badges/nastilni-igry-i.png",
+      "ImagePath": "/badges_images/nastilni-igry-i.png",
       "Country": "Україна",
       "Specialization": "Рольового руху",
       "Status": "Затверджена",
@@ -2485,7 +2486,7 @@
     {
       "Id": "nastilni-igry-ii-2",
       "Title": "Настільні ігри ІІ",
-      "ImagePath": "/images/badges/nastilni-igry-ii.png",
+      "ImagePath": "/badges_images/nastilni-igry-ii.png",
       "Country": "Польща",
       "Specialization": "Рольового руху",
       "Status": "Апробаційна",
@@ -2498,7 +2499,7 @@
     {
       "Id": "nastilni-igry-ii",
       "Title": "Настільні ігри ІІ",
-      "ImagePath": "/images/badges/nastilni-igry-ii.png",
+      "ImagePath": "/badges_images/nastilni-igry-ii.png",
       "Country": "Україна",
       "Specialization": "Рольового руху",
       "Status": "Затверджена",
@@ -2513,7 +2514,7 @@
     {
       "Id": "numizmatyka-ii-proba",
       "Title": "Нумізматика - ІІ проба",
-      "ImagePath": "/images/badges/numizmatyka_ii_color.svg",
+      "ImagePath": "/badges_images/numizmatyka_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -2526,7 +2527,7 @@
     {
       "Id": "obrazotvorche-mystecztvo-i-ii-proba",
       "Title": "Образотворче мистецтво І - ІІ проба",
-      "ImagePath": "/images/badges/obrazotvorche_mystetstvo_i_color.svg",
+      "ImagePath": "/badges_images/obrazotvorche_mystetstvo_i_color.svg",
       "Country": "Україна",
       "Specialization": "Мистецька",
       "Status": "Затверджена",
@@ -2539,7 +2540,7 @@
     {
       "Id": "obrazotvorche-mystecztvo-ii-iii-proba",
       "Title": "Образотворче мистецтво ІІ - ІІІ проба",
-      "ImagePath": "/images/badges/obrazotvorche_mystetstvo_ii_color.svg",
+      "ImagePath": "/badges_images/obrazotvorche_mystetstvo_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Мистецька",
       "Status": "Затверджена",
@@ -2552,7 +2553,7 @@
     {
       "Id": "ogorodnycztvo-ii-proba",
       "Title": "Огородництво - ІІ проба",
-      "ImagePath": "/images/badges/ohorodnytstvo_ii_color.svg",
+      "ImagePath": "/badges_images/ohorodnytstvo_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -2565,7 +2566,7 @@
     {
       "Id": "odne-pero",
       "Title": "Одне Перо",
-      "ImagePath": "/images/badges/odne_pero_i_color.svg",
+      "ImagePath": "/badges_images/odne_pero_i_color.svg",
       "Country": "Польща",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -2578,7 +2579,7 @@
     {
       "Id": "odne-pero-i-proba",
       "Title": "Одне перо - І проба",
-      "ImagePath": "/images/badges/odne_pero_i_color.svg",
+      "ImagePath": "/badges_images/odne_pero_i_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -2591,7 +2592,7 @@
     {
       "Id": "onlajn-dilovod-i",
       "Title": "Онлайн діловод І",
-      "ImagePath": "/images/badges/onlain_dilovod_i_color.svg",
+      "ImagePath": "/badges_images/onlain_dilovod_i_color.svg",
       "Country": "Польща",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -2604,7 +2605,7 @@
     {
       "Id": "onlajn-dilovod-ii",
       "Title": "Онлайн діловод ІІ",
-      "ImagePath": "/images/badges/onlain_dilovod_ii_color.svg",
+      "ImagePath": "/badges_images/onlain_dilovod_ii_color.svg",
       "Country": "Польща",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -2617,7 +2618,7 @@
     {
       "Id": "onlajn-dilovod-i-ii-proba",
       "Title": "Онлайн-діловод I - ІІ проба",
-      "ImagePath": "/images/badges/onlain_dilovod_i_color.svg",
+      "ImagePath": "/badges_images/onlain_dilovod_i_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -2630,7 +2631,7 @@
     {
       "Id": "onlajn-dilovod-ii-iii-proba",
       "Title": "Онлайн-діловод II - ІІІ проба",
-      "ImagePath": "/images/badges/onlain_dilovod_ii_color.svg",
+      "ImagePath": "/badges_images/onlain_dilovod_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -2643,7 +2644,7 @@
     {
       "Id": "osvita-ii-proba",
       "Title": "Освіта - ІІ проба",
-      "ImagePath": "/images/badges/osvita_ii_color.svg",
+      "ImagePath": "/badges_images/osvita_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -2656,7 +2657,7 @@
     {
       "Id": "osobyste-zdorovya-ii-proba",
       "Title": "Особисте здоров’я - ІІ проба",
-      "ImagePath": "/images/badges/osobyste_zdorovia_ii_color.svg",
+      "ImagePath": "/badges_images/osobyste_zdorovia_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -2669,7 +2670,7 @@
     {
       "Id": "osobystyj-menedzhment-iii-proba",
       "Title": "Особистий менеджмент - ІІІ проба",
-      "ImagePath": "/images/badges/osobystyi_menedzhment_iii_color.svg",
+      "ImagePath": "/badges_images/osobystyi_menedzhment_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -2682,7 +2683,7 @@
     {
       "Id": "paraplaneryzm-iii-proba",
       "Title": "Парапланеризм - ІІІ проба",
-      "ImagePath": "/images/badges/paraplaneryzm_iii_color.svg",
+      "ImagePath": "/badges_images/paraplaneryzm_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Летунська",
       "Status": "Затверджена",
@@ -2695,7 +2696,7 @@
     {
       "Id": "perekladyna-i",
       "Title": "Перекладина І",
-      "ImagePath": "/images/badges/perekladyna_iemblem_color.svg",
+      "ImagePath": "/badges_images/perekladyna_iemblem_color.svg",
       "Country": "Україна",
       "Specialization": "Спортивна",
       "Status": "Затверджена",
@@ -2708,7 +2709,7 @@
     {
       "Id": "perekladyna-ii",
       "Title": "Перекладина ІІ",
-      "ImagePath": "/images/badges/perekladyna_iiemblem_color.svg",
+      "ImagePath": "/badges_images/perekladyna_iiemblem_color.svg",
       "Country": "Україна",
       "Specialization": "Спортивна",
       "Status": "Затверджена",
@@ -2721,7 +2722,7 @@
     {
       "Id": "perekladyna-iii",
       "Title": "Перекладина ІІІ",
-      "ImagePath": "/images/badges/perekladyna_iiiemblem_color.svg",
+      "ImagePath": "/badges_images/perekladyna_iiiemblem_color.svg",
       "Country": "Україна",
       "Specialization": "Спортивна",
       "Status": "Затверджена",
@@ -2734,7 +2735,7 @@
     {
       "Id": "persha-dopomoga-i",
       "Title": "Перша допомога І",
-      "ImagePath": "/images/badges/persha_dopomoha_i_color.svg",
+      "ImagePath": "/badges_images/persha_dopomoha_i_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -2747,7 +2748,7 @@
     {
       "Id": "persha-dopomoga-ii",
       "Title": "Перша допомога ІІ",
-      "ImagePath": "/images/badges/persha_dopomoha_ii_color.svg",
+      "ImagePath": "/badges_images/persha_dopomoha_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -2760,7 +2761,7 @@
     {
       "Id": "pysankarstvo-ii-proba",
       "Title": "Писанкарство - ІІ проба",
-      "ImagePath": "/images/badges/pysankarstvo_ii_color.svg",
+      "ImagePath": "/badges_images/pysankarstvo_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Мистецька",
       "Status": "Затверджена",
@@ -2773,7 +2774,7 @@
     {
       "Id": "pysankarstvo-i",
       "Title": "Писанкарство І",
-      "ImagePath": "/images/badges/pysankarstvo-1-chb-01-artboard-1.svg",
+      "ImagePath": "/badges_images/pysankarstvo-1-chb-01-artboard-1.svg",
       "Country": "Польща",
       "Specialization": "Мистецька",
       "Status": "Затверджена",
@@ -2786,7 +2787,7 @@
     {
       "Id": "pysankarstvo-ii",
       "Title": "Писанкарство ІІ",
-      "ImagePath": "/images/badges/pysankarstvo-2-chb-01-artboard-1.svg",
+      "ImagePath": "/badges_images/pysankarstvo-2-chb-01-artboard-1.svg",
       "Country": "Польща",
       "Specialization": "Мистецька",
       "Status": "Затверджена",
@@ -2799,7 +2800,7 @@
     {
       "Id": "pysankarstvo-iii",
       "Title": "Писанкарство ІІІ",
-      "ImagePath": "/images/badges/pysankarstvo-3-chb-01-artboard-1.svg",
+      "ImagePath": "/badges_images/pysankarstvo-3-chb-01-artboard-1.svg",
       "Country": "Польща",
       "Specialization": "Мистецька",
       "Status": "Затверджена",
@@ -2814,7 +2815,7 @@
     {
       "Id": "plavannya-ii-proba",
       "Title": "Плавання - ІІ проба",
-      "ImagePath": "/images/badges/plavannia_ii_sport_color.svg",
+      "ImagePath": "/badges_images/plavannia_ii_sport_color.svg",
       "Country": "Україна",
       "Specialization": "Спортивна",
       "Status": "Затверджена",
@@ -2829,7 +2830,7 @@
     {
       "Id": "plavannya-iii",
       "Title": "Плавання III",
-      "ImagePath": "/images/badges/plavannia_ii_sport_color-1.svg",
+      "ImagePath": "/badges_images/plavannia_ii_sport_color-1.svg",
       "Country": "Україна",
       "Specialization": "Морська",
       "Status": "Затверджена",
@@ -2842,7 +2843,7 @@
     {
       "Id": "plavannya-i",
       "Title": "Плавання І",
-      "ImagePath": "/images/badges/plavannya-1-chb-01-artboard-1.svg",
+      "ImagePath": "/badges_images/plavannya-1-chb-01-artboard-1.svg",
       "Country": "Польща",
       "Specialization": "Спортивна",
       "Status": "Затверджена",
@@ -2855,7 +2856,7 @@
     {
       "Id": "plavannya-ii-2",
       "Title": "Плавання ІІ",
-      "ImagePath": "/images/badges/plavannya-2-chb.svg",
+      "ImagePath": "/badges_images/plavannya-2-chb.svg",
       "Country": "Польща",
       "Specialization": "Спортивна",
       "Status": "Затверджена",
@@ -2868,7 +2869,7 @@
     {
       "Id": "plavannya-ii",
       "Title": "Плавання ІІ",
-      "ImagePath": "/images/badges/plavannia_ii_sport_color-1.svg",
+      "ImagePath": "/badges_images/plavannia_ii_sport_color-1.svg",
       "Country": "Україна",
       "Specialization": "Морська",
       "Status": "Затверджена",
@@ -2881,7 +2882,7 @@
     {
       "Id": "plavannya-iii-2",
       "Title": "Плавання ІІІ",
-      "ImagePath": "/images/badges/grafika_plavannya-3-chb.svg",
+      "ImagePath": "/badges_images/grafika_plavannya-3-chb.svg",
       "Country": "Польща",
       "Specialization": "Спортивна",
       "Status": "Затверджена",
@@ -2894,7 +2895,7 @@
     {
       "Id": "plastuj-onlajn-covid19",
       "Title": "Пластуй онлайн: COVID19",
-      "ImagePath": "/images/badges/plastui_onlain_covid_i_covid_color.svg",
+      "ImagePath": "/badges_images/plastui_onlain_covid_i_covid_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -2907,7 +2908,7 @@
     {
       "Id": "pletinnya-i",
       "Title": "Плетіння І",
-      "ImagePath": "/images/badges/pletinnia_i_color.svg",
+      "ImagePath": "/badges_images/pletinnia_i_color.svg",
       "Country": "Україна",
       "Specialization": "Мистецька",
       "Status": "Затверджена",
@@ -2920,7 +2921,7 @@
     {
       "Id": "pletinnya-ii",
       "Title": "Плетіння ІІ",
-      "ImagePath": "/images/badges/pletinnia_ii_color.svg",
+      "ImagePath": "/badges_images/pletinnia_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Мистецька",
       "Status": "Затверджена",
@@ -2933,7 +2934,7 @@
     {
       "Id": "pletinnya-iii",
       "Title": "Плетіння ІІІ",
-      "ImagePath": "/images/badges/pletinnia_iii_color.svg",
+      "ImagePath": "/badges_images/pletinnia_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Мистецька",
       "Status": "Затверджена",
@@ -2946,7 +2947,7 @@
     {
       "Id": "pogodoznavstvo-i-proba",
       "Title": "Погодознавство - І проба",
-      "ImagePath": "/images/badges/pohodoznavstvo_i_color.svg",
+      "ImagePath": "/badges_images/pohodoznavstvo_i_color.svg",
       "Country": "Україна",
       "Specialization": "Морська",
       "Status": "Затверджена",
@@ -2959,7 +2960,7 @@
     {
       "Id": "polumya-braterstva-i",
       "Title": "Полум’я Братерства І",
-      "ImagePath": "/images/badges/polumʼya-braterstva-1-ch_b.svg",
+      "ImagePath": "/badges_images/polumʼya-braterstva-1-ch_b.svg",
       "Country": "Польща",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -2974,7 +2975,7 @@
     {
       "Id": "polumya-braterstva-ii",
       "Title": "Полум’я Братерства ІІ",
-      "ImagePath": "/images/badges/polumʼya-braterstva-2-ch_b.svg",
+      "ImagePath": "/badges_images/polumʼya-braterstva-2-ch_b.svg",
       "Country": "Польща",
       "Specialization": "Загальні вмілості",
       "Status": "Апробаційна",
@@ -2987,7 +2988,7 @@
     {
       "Id": "polumya-braterstva-iii",
       "Title": "Полум’я Братерства ІІІ",
-      "ImagePath": "/images/badges/polumʼya-braterstva-3-ch_b-1.svg",
+      "ImagePath": "/badges_images/polumʼya-braterstva-3-ch_b-1.svg",
       "Country": "Польща",
       "Specialization": "Загальні вмілості",
       "Status": "Апробаційна",
@@ -3000,7 +3001,7 @@
     {
       "Id": "pravnyk-ii-proba",
       "Title": "Правник - ІІ проба",
-      "ImagePath": "/images/badges/pravnyk_ii_color.svg",
+      "ImagePath": "/badges_images/pravnyk_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -3013,7 +3014,7 @@
     {
       "Id": "pl-pryrodoznavstvo-i",
       "Title": "Природознавство І",
-      "ImagePath": "/images/badges/pryrodoznavstvo_i_color.svg",
+      "ImagePath": "/badges_images/pryrodoznavstvo_i_color.svg",
       "Country": "Польща",
       "Specialization": "",
       "Status": "",
@@ -3029,7 +3030,7 @@
     {
       "Id": "pryrodoznavstvo-i",
       "Title": "Природознавство І",
-      "ImagePath": "/images/badges/pryrodoznavstvo_i_color.svg",
+      "ImagePath": "/badges_images/pryrodoznavstvo_i_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -3042,7 +3043,7 @@
     {
       "Id": "pryrodoznavstvo-ii-2",
       "Title": "Природознавство ІІ",
-      "ImagePath": "/images/badges/pryrodoznavstvo_ii_color.svg",
+      "ImagePath": "/badges_images/pryrodoznavstvo_ii_color.svg",
       "Country": "Польща",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -3055,7 +3056,7 @@
     {
       "Id": "pryrodoznavstvo-ii",
       "Title": "Природознавство ІІ",
-      "ImagePath": "/images/badges/pryrodoznavstvo_ii_color.svg",
+      "ImagePath": "/badges_images/pryrodoznavstvo_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -3068,7 +3069,7 @@
     {
       "Id": "pryrodoznavstvo-iii-2",
       "Title": "Природознавство ІІІ",
-      "ImagePath": "/images/badges/pryrodoznavstvo_iii_color.svg",
+      "ImagePath": "/badges_images/pryrodoznavstvo_iii_color.svg",
       "Country": "Польща",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -3081,7 +3082,7 @@
     {
       "Id": "pryrodoznavstvo-iii",
       "Title": "Природознавство ІІІ",
-      "ImagePath": "/images/badges/pryrodoznavstvo_iii_color.svg",
+      "ImagePath": "/badges_images/pryrodoznavstvo_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -3094,7 +3095,7 @@
     {
       "Id": "pryyatel-ka-tvaryn-i-proba",
       "Title": "Приятель/ка тварин - І проба",
-      "ImagePath": "/images/badges/pryiatel_tvaryn_i_color.svg",
+      "ImagePath": "/badges_images/pryiatel_tvaryn_i_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -3107,7 +3108,7 @@
     {
       "Id": "providnycztvo-i-ii-proba",
       "Title": "Провідництво I - ІІ проба",
-      "ImagePath": "/images/badges/providnytstvo_i_color.svg",
+      "ImagePath": "/badges_images/providnytstvo_i_color.svg",
       "Country": "",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -3122,7 +3123,7 @@
     {
       "Id": "providnycztvo-ii-iii-proba",
       "Title": "Провідництво II - ІІІ проба",
-      "ImagePath": "/images/badges/providnytstvo_ii_color.svg",
+      "ImagePath": "/badges_images/providnytstvo_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -3135,7 +3136,7 @@
     {
       "Id": "providnycztvo-turystiv-i-proba",
       "Title": "Провідництво туристів - І проба",
-      "ImagePath": "/images/badges/providnytstvo_turystiv_i_color.svg",
+      "ImagePath": "/badges_images/providnytstvo_turystiv_i_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -3148,7 +3149,7 @@
     {
       "Id": "providnycztvo-turystiv-ii-proba",
       "Title": "Провідництво туристів - ІІ проба",
-      "ImagePath": "/images/badges/providnytstvo_turystiv_ii_color.svg",
+      "ImagePath": "/badges_images/providnytstvo_turystiv_ii_color.svg",
       "Country": "",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -3163,7 +3164,7 @@
     {
       "Id": "providnycztvo-turystiv-iii-proba",
       "Title": "Провідництво туристів - ІІІ проба",
-      "ImagePath": "/images/badges/providnytstvo_turystiv_iii_color.svg",
+      "ImagePath": "/badges_images/providnytstvo_turystiv_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -3176,7 +3177,7 @@
     {
       "Id": "providnycztvo-i",
       "Title": "Провідництво І",
-      "ImagePath": "/images/badges/providnytstvo_i_color.svg",
+      "ImagePath": "/badges_images/providnytstvo_i_color.svg",
       "Country": "Польща",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -3189,7 +3190,7 @@
     {
       "Id": "providnycztvo-ii",
       "Title": "Провідництво ІІ",
-      "ImagePath": "/images/badges/providnytstvo_ii_color.svg",
+      "ImagePath": "/badges_images/providnytstvo_ii_color.svg",
       "Country": "Польща",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -3217,7 +3218,7 @@
     {
       "Id": "publichni-vystupy-ii-proba",
       "Title": "Публічні виступи - ІІ проба",
-      "ImagePath": "/images/badges/publichni_vystupy_ii_color.svg",
+      "ImagePath": "/badges_images/publichni_vystupy_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -3230,7 +3231,7 @@
     {
       "Id": "pikluvannya-ditmy-iii-proba",
       "Title": "Піклування дітьми - ІІІ проба",
-      "ImagePath": "/images/badges/pikluvannia_ditmy_iii_color.svg",
+      "ImagePath": "/badges_images/pikluvannia_ditmy_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -3243,7 +3244,7 @@
     {
       "Id": "pilotazh-iii-proba",
       "Title": "Пілотаж - ІІІ проба",
-      "ImagePath": "/images/badges/pilotazh_iii_color.svg",
+      "ImagePath": "/badges_images/pilotazh_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Морська",
       "Status": "Затверджена",
@@ -3256,7 +3257,7 @@
     {
       "Id": "pionirstvo",
       "Title": "Піонірство",
-      "ImagePath": "/images/badges/pionirstvo_ii_color.svg",
+      "ImagePath": "/badges_images/pionirstvo_ii_color.svg",
       "Country": "Польща",
       "Specialization": "Загальні вмілості",
       "Status": "",
@@ -3271,7 +3272,7 @@
     {
       "Id": "pionirstvo-ii-proba",
       "Title": "Піонірство - ІІ проба",
-      "ImagePath": "/images/badges/pionirstvo_ii_color.svg",
+      "ImagePath": "/badges_images/pionirstvo_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -3284,7 +3285,7 @@
     {
       "Id": "radioamator-i-proba",
       "Title": "Радіоаматор І проба",
-      "ImagePath": "/images/badges/radioamator_i_color.svg",
+      "ImagePath": "/badges_images/radioamator_i_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -3297,7 +3298,7 @@
     {
       "Id": "radiotehnika-i",
       "Title": "Радіотехніка І",
-      "ImagePath": "/images/badges/radiotekhnika_i_color.svg",
+      "ImagePath": "/badges_images/radiotekhnika_i_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -3310,7 +3311,7 @@
     {
       "Id": "radiotehnika-ii",
       "Title": "Радіотехніка ІІ",
-      "ImagePath": "/images/badges/radiotekhnika_ii_color.svg",
+      "ImagePath": "/badges_images/radiotekhnika_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -3323,7 +3324,7 @@
     {
       "Id": "radiotehnika-iii",
       "Title": "Радіотехніка ІІІ",
-      "ImagePath": "/images/badges/radiotekhnika_iii_color.svg",
+      "ImagePath": "/badges_images/radiotekhnika_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -3336,7 +3337,7 @@
     {
       "Id": "rybalstvo-ii-proba",
       "Title": "Рибальство - ІІ проба",
-      "ImagePath": "/images/badges/rybalstvo_ii_color.svg",
+      "ImagePath": "/badges_images/rybalstvo_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -3349,7 +3350,7 @@
     {
       "Id": "robitnychyj-ruh-v-ukrayini-iii-proba",
       "Title": "Робітничий рух в Україні ІІІ проба",
-      "ImagePath": "/images/badges/robitnychyi_rukh_v_ukraini_color.svg",
+      "ImagePath": "/badges_images/robitnychyi_rukh_v_ukraini_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -3362,7 +3363,7 @@
     {
       "Id": "rodynne-zhyttya-ii-proba",
       "Title": "Родинне життя - ІІ проба",
-      "ImagePath": "/images/badges/rodynne_zhyttia_ii_color.svg",
+      "ImagePath": "/badges_images/rodynne_zhyttia_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -3375,7 +3376,7 @@
     {
       "Id": "rozvidnycztvo-i-ii-proba",
       "Title": "Розвідництво І (ІІ проба)",
-      "ImagePath": "/images/badges/rozvidnytstvo_ii_color.svg",
+      "ImagePath": "/badges_images/rozvidnytstvo_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Військова",
       "Status": "Затверджена",
@@ -3390,7 +3391,7 @@
     {
       "Id": "rozvidnycztvo-ii-iii-proba",
       "Title": "Розвідництво ІІ (ІІІ проба)",
-      "ImagePath": "/images/badges/rozvidnytstvo_i_color.svg",
+      "ImagePath": "/badges_images/rozvidnytstvo_i_color.svg",
       "Country": "Україна",
       "Specialization": "Військова",
       "Status": "Затверджена",
@@ -3405,7 +3406,7 @@
     {
       "Id": "rolovyk-i",
       "Title": "Рольовик І",
-      "ImagePath": "/images/badges/rolovyk_i_color.svg",
+      "ImagePath": "/badges_images/rolovyk_i_color.svg",
       "Country": "Україна",
       "Specialization": "Рольового руху",
       "Status": "Затверджена",
@@ -3418,7 +3419,7 @@
     {
       "Id": "rolovyk-ii",
       "Title": "Рольовик ІІ",
-      "ImagePath": "/images/badges/rolovyk_ii_color.svg",
+      "ImagePath": "/badges_images/rolovyk_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Рольового руху",
       "Status": "Затверджена",
@@ -3431,7 +3432,7 @@
     {
       "Id": "rolovyk-iii",
       "Title": "Рольовик ІІІ",
-      "ImagePath": "/images/badges/rolovyk_iii_color.svg",
+      "ImagePath": "/badges_images/rolovyk_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Рольового руху",
       "Status": "Затверджена",
@@ -3444,7 +3445,7 @@
     {
       "Id": "rizbyarstvo-i",
       "Title": "Різьбярство І",
-      "ImagePath": "/images/badges/rizbiarstvo_i_color.svg",
+      "ImagePath": "/badges_images/rizbiarstvo_i_color.svg",
       "Country": "Україна",
       "Specialization": "Мистецька",
       "Status": "Затверджена",
@@ -3457,7 +3458,7 @@
     {
       "Id": "rizbyarstvo-ii",
       "Title": "Різьбярство ІІ",
-      "ImagePath": "/images/badges/rizbiarstvo_ii_color.svg",
+      "ImagePath": "/badges_images/rizbiarstvo_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Мистецька",
       "Status": "Затверджена",
@@ -3470,7 +3471,7 @@
     {
       "Id": "rizbyarstvo-iii",
       "Title": "Різьбярство ІІІ",
-      "ImagePath": "/images/badges/rizbiarstvo_iii_color.svg",
+      "ImagePath": "/badges_images/rizbiarstvo_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Мистецька",
       "Status": "Затверджена",
@@ -3483,7 +3484,7 @@
     {
       "Id": "semyborecz-ii-proba",
       "Title": "Семиборець - II проба",
-      "ImagePath": "/images/badges/semyborets_ii_color.svg",
+      "ImagePath": "/badges_images/semyborets_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Військова",
       "Status": "Апробаційна",
@@ -3496,7 +3497,7 @@
     {
       "Id": "sygnalizacziya-iii-proba",
       "Title": "Сигналізація - ІІІ проба",
-      "ImagePath": "/images/badges/syhnalizatsiia_iii_color.svg",
+      "ImagePath": "/badges_images/syhnalizatsiia_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Морська",
       "Status": "Затверджена",
@@ -3509,7 +3510,7 @@
     {
       "Id": "sygnalizacziya-i",
       "Title": "Сигналізація І",
-      "ImagePath": "/images/badges/sygnalizacziya-1-chb-01-artboard-1.svg",
+      "ImagePath": "/badges_images/sygnalizacziya-1-chb-01-artboard-1.svg",
       "Country": "Польща",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -3522,7 +3523,7 @@
     {
       "Id": "sygnalizacziya-ii",
       "Title": "Сигналізація ІІ",
-      "ImagePath": "/images/badges/sygnalizacziya-2-ch_b.svg",
+      "ImagePath": "/badges_images/sygnalizacziya-2-ch_b.svg",
       "Country": "Польща",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -3535,7 +3536,7 @@
     {
       "Id": "sygnalizacziya-iii",
       "Title": "Сигналізація ІІІ",
-      "ImagePath": "/images/badges/sygnalizacziya-3-chb-01-artboard-1.svg",
+      "ImagePath": "/badges_images/sygnalizacziya-3-chb-01-artboard-1.svg",
       "Country": "Польща",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -3548,7 +3549,7 @@
     {
       "Id": "skautske-pobratymstvo-i-proba",
       "Title": "Скаутське побратимство - І проба",
-      "ImagePath": "/images/badges/skautske_pobratymstvo_i_color.svg",
+      "ImagePath": "/badges_images/skautske_pobratymstvo_i_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -3561,7 +3562,7 @@
     {
       "Id": "skelelazinnya-i-2",
       "Title": "Скелелазіння І",
-      "ImagePath": "/images/badges/skelelazinnia_i_color.svg",
+      "ImagePath": "/badges_images/skelelazinnia_i_color.svg",
       "Country": "Польща",
       "Specialization": "Альпінізм та скелелазінняСпортивна",
       "Status": "Затверджена",
@@ -3574,7 +3575,7 @@
     {
       "Id": "skelelazinnya-i",
       "Title": "Скелелазіння І",
-      "ImagePath": "/images/badges/skelelazinnia_i_color.svg",
+      "ImagePath": "/badges_images/skelelazinnia_i_color.svg",
       "Country": "Україна",
       "Specialization": "Альпінізм та скелелазіння",
       "Status": "Затверджена",
@@ -3587,7 +3588,7 @@
     {
       "Id": "skelelazinnya-ii-2",
       "Title": "Скелелазіння ІІ",
-      "ImagePath": "/images/badges/skelelazinnia_ii_color.svg",
+      "ImagePath": "/badges_images/skelelazinnia_ii_color.svg",
       "Country": "Польща",
       "Specialization": "Альпінізм та скелелазіння",
       "Status": "Затверджена",
@@ -3600,7 +3601,7 @@
     {
       "Id": "skelelazinnya-ii",
       "Title": "Скелелазіння ІІ",
-      "ImagePath": "/images/badges/skelelazinnia_ii_color.svg",
+      "ImagePath": "/badges_images/skelelazinnia_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Альпінізм та скелелазіння",
       "Status": "Затверджена",
@@ -3613,7 +3614,7 @@
     {
       "Id": "skelelazinnya-iii-2",
       "Title": "Скелелазіння ІІІ",
-      "ImagePath": "/images/badges/skelelazinnia_iii_color.svg",
+      "ImagePath": "/badges_images/skelelazinnia_iii_color.svg",
       "Country": "Польща",
       "Specialization": "Альпінізм та скелелазіння",
       "Status": "Затверджена",
@@ -3626,7 +3627,7 @@
     {
       "Id": "skelelazinnya-iii",
       "Title": "Скелелазіння ІІІ",
-      "ImagePath": "/images/badges/skelelazinnia_iii_color.svg",
+      "ImagePath": "/badges_images/skelelazinnia_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Альпінізм та скелелазіння",
       "Status": "Затверджена",
@@ -3639,7 +3640,7 @@
     {
       "Id": "skulptura-i-ii-proba",
       "Title": "Скульптура І - ІІ проба",
-      "ImagePath": "/images/badges/skulptura_i_color.svg",
+      "ImagePath": "/badges_images/skulptura_i_color.svg",
       "Country": "Україна",
       "Specialization": "Мистецька",
       "Status": "Затверджена",
@@ -3652,7 +3653,7 @@
     {
       "Id": "skulptura-ii-iii-proba",
       "Title": "Скульптура ІІ - ІІІ проба",
-      "ImagePath": "/images/badges/skulptura_ii_color.svg",
+      "ImagePath": "/badges_images/skulptura_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Мистецька",
       "Status": "Затверджена",
@@ -3665,7 +3666,7 @@
     {
       "Id": "skiperstvo-iii-proba",
       "Title": "Скіперство - ІІІ проба",
-      "ImagePath": "/images/badges/skiperstvo_iii_color.svg",
+      "ImagePath": "/badges_images/skiperstvo_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Морська",
       "Status": "Затверджена",
@@ -3678,7 +3679,7 @@
     {
       "Id": "slidoznavstvo-i",
       "Title": "Слідознавство І",
-      "ImagePath": "/images/badges/slidoznavstvo_i_color.svg",
+      "ImagePath": "/badges_images/slidoznavstvo_i_color.svg",
       "Country": "Україна",
       "Specialization": "Військова",
       "Status": "Затверджена",
@@ -3691,7 +3692,7 @@
     {
       "Id": "slidoznavstvo-ii",
       "Title": "Слідознавство ІІ",
-      "ImagePath": "/images/badges/slidoznavstvo_ii_color.svg",
+      "ImagePath": "/badges_images/slidoznavstvo_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Військова",
       "Status": "Затверджена",
@@ -3704,7 +3705,7 @@
     {
       "Id": "slidoznavstvo-iii",
       "Title": "Слідознавство ІІІ",
-      "ImagePath": "/images/badges/slidoznavstvo_iii_color.svg",
+      "ImagePath": "/badges_images/slidoznavstvo_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Військова",
       "Status": "Затверджена",
@@ -3717,7 +3718,7 @@
     {
       "Id": "snoubordyzm-i",
       "Title": "Сноубордизм І",
-      "ImagePath": "/images/badges/snoubordyzm_i_color.svg",
+      "ImagePath": "/badges_images/snoubordyzm_i_color.svg",
       "Country": "Україна",
       "Specialization": "Сноубординг та лещетарство",
       "Status": "Затверджена",
@@ -3730,7 +3731,7 @@
     {
       "Id": "snoubordyzm-ii",
       "Title": "Сноубордизм ІІ",
-      "ImagePath": "/images/badges/snoubordyzm_ii_color.svg",
+      "ImagePath": "/badges_images/snoubordyzm_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Сноубординг та лещетарство",
       "Status": "Затверджена",
@@ -3743,7 +3744,7 @@
     {
       "Id": "snoubordyzm-iii",
       "Title": "Сноубордизм ІІІ",
-      "ImagePath": "/images/badges/snoubordyzm_iii_color.svg",
+      "ImagePath": "/badges_images/snoubordyzm_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Сноубординг та лещетарство",
       "Status": "Затверджена",
@@ -3756,7 +3757,7 @@
     {
       "Id": "speleoturyzm-i",
       "Title": "Спелеотуризм І",
-      "ImagePath": "/images/badges/speleoturyzm_i_color.svg",
+      "ImagePath": "/badges_images/speleoturyzm_i_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -3769,7 +3770,7 @@
     {
       "Id": "speleoturyzm-ii",
       "Title": "Спелеотуризм ІІ",
-      "ImagePath": "/images/badges/speleoturyzm_ii_color.svg",
+      "ImagePath": "/badges_images/speleoturyzm_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -3782,7 +3783,7 @@
     {
       "Id": "speleoturyzm-iii",
       "Title": "Спелеотуризм ІІІ",
-      "ImagePath": "/images/badges/speleoturyzm_iii_color.svg",
+      "ImagePath": "/badges_images/speleoturyzm_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -3795,7 +3796,7 @@
     {
       "Id": "sportovi-igry-i-proba",
       "Title": "Спортові ігри - І проба",
-      "ImagePath": "/images/badges/sportovi_ihry_iemblem_color.svg",
+      "ImagePath": "/badges_images/sportovi_ihry_iemblem_color.svg",
       "Country": "Україна",
       "Specialization": "Спортивна",
       "Status": "Затверджена",
@@ -3808,7 +3809,7 @@
     {
       "Id": "spiv-ii-proba",
       "Title": "Спів - ІІ проба",
-      "ImagePath": "/images/badges/spiv_ii_color.svg",
+      "ImagePath": "/badges_images/spiv_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Мистецька",
       "Status": "Затверджена",
@@ -3821,7 +3822,7 @@
     {
       "Id": "spiv-ii",
       "Title": "Спів ІІ",
-      "ImagePath": "/images/badges/spiv_ii_color.svg",
+      "ImagePath": "/badges_images/spiv_ii_color.svg",
       "Country": "Польща",
       "Specialization": "Мистецька",
       "Status": "Затверджена",
@@ -3834,7 +3835,7 @@
     {
       "Id": "stalist-dovkillya-iii-proba",
       "Title": "Сталість довкілля - ІІІ проба",
-      "ImagePath": "/images/badges/stalist_dovkillia_iii_color.svg",
+      "ImagePath": "/badges_images/stalist_dovkillia_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -3847,7 +3848,7 @@
     {
       "Id": "strilecz-i-ii-proba-zamist-vmilosti-strilba-z-rushnyczi",
       "Title": "Стрілець І - ІІ проба (замість вмілості «стрільба з рушниці»)",
-      "ImagePath": "/images/badges/strilets_i_color.svg",
+      "ImagePath": "/badges_images/strilets_i_color.svg",
       "Country": "Україна",
       "Specialization": "Військова",
       "Status": "Затверджена",
@@ -3860,7 +3861,7 @@
     {
       "Id": "strilecz-ii-iii-proba-zamist-vmilosti-strilba-z-rushnyczi",
       "Title": "Стрілець ІІ - ІІІ проба (замість вмілості «стрільба з рушниці»)",
-      "ImagePath": "/images/badges/strilets_ii_color.svg",
+      "ImagePath": "/badges_images/strilets_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Військова",
       "Status": "Затверджена",
@@ -3873,7 +3874,7 @@
     {
       "Id": "sudnoznavstvo-i",
       "Title": "Суднознавство І",
-      "ImagePath": "/images/badges/sudnoznavstvo_i_color.svg",
+      "ImagePath": "/badges_images/sudnoznavstvo_i_color.svg",
       "Country": "Україна",
       "Specialization": "Морська",
       "Status": "Апробаційна",
@@ -3886,7 +3887,7 @@
     {
       "Id": "sudnoznavstvo-ii",
       "Title": "Суднознавство ІІ",
-      "ImagePath": "/images/badges/sudnoznavstvo_ii_color.svg",
+      "ImagePath": "/badges_images/sudnoznavstvo_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Морська",
       "Status": "Апробаційна",
@@ -3899,7 +3900,7 @@
     {
       "Id": "sudnoznavstvo-iii",
       "Title": "Суднознавство ІІІ",
-      "ImagePath": "/images/badges/sudnoznavstvo_iii_color.svg",
+      "ImagePath": "/badges_images/sudnoznavstvo_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Морська",
       "Status": "Апробаційна",
@@ -3912,7 +3913,7 @@
     {
       "Id": "tabirnycztvo",
       "Title": "Табірництво",
-      "ImagePath": "/images/badges/tabirnytstvo_i_color.svg",
+      "ImagePath": "/badges_images/tabirnytstvo_i_color.svg",
       "Country": "Польща",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -3925,7 +3926,7 @@
     {
       "Id": "tabirnycztvo-i-proba",
       "Title": "Табірництво - І проба",
-      "ImagePath": "/images/badges/tabirnytstvo_i_color.svg",
+      "ImagePath": "/badges_images/tabirnytstvo_i_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -3938,7 +3939,7 @@
     {
       "Id": "tajm-menedzhment",
       "Title": "Тайм-менеджмент",
-      "ImagePath": "/images/badges/taim_menedzhment_ii_color.svg",
+      "ImagePath": "/badges_images/taim_menedzhment_ii_color.svg",
       "Country": "Польща",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -3951,7 +3952,7 @@
     {
       "Id": "tajm-menedzhment-ii-proba",
       "Title": "Тайм-менеджмент - ІІ проба",
-      "ImagePath": "/images/badges/taim_menedzhment_ii_color.svg",
+      "ImagePath": "/badges_images/taim_menedzhment_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Апробаційна",
@@ -3964,7 +3965,7 @@
     {
       "Id": "taktychna-medyczyna-iii-proba",
       "Title": "Тактична медицина - ІІІ проба",
-      "ImagePath": "/images/badges/taktychna_medytsyna_iii_color.svg",
+      "ImagePath": "/badges_images/taktychna_medytsyna_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Військова",
       "Status": "Апробаційна",
@@ -3977,7 +3978,7 @@
     {
       "Id": "tanky-i",
       "Title": "Танки І",
-      "ImagePath": "/images/badges/tanky_i_color.svg",
+      "ImagePath": "/badges_images/tanky_i_color.svg",
       "Country": "Україна",
       "Specialization": "Мистецька",
       "Status": "Затверджена",
@@ -3990,7 +3991,7 @@
     {
       "Id": "tanky-ii",
       "Title": "Танки ІІ",
-      "ImagePath": "/images/badges/tanky_ii_color.svg",
+      "ImagePath": "/badges_images/tanky_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Мистецька",
       "Status": "Затверджена",
@@ -4003,7 +4004,7 @@
     {
       "Id": "tanky-iii",
       "Title": "Танки ІІІ",
-      "ImagePath": "/images/badges/tanky_iii_color.svg",
+      "ImagePath": "/badges_images/tanky_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Мистецька",
       "Status": "Затверджена",
@@ -4016,7 +4017,7 @@
     {
       "Id": "terenovi-igry-ta-zmagy-i",
       "Title": "Теренові ігри та змаги І",
-      "ImagePath": "/images/badges/terenovi_ihry_ta_zmahy_i_color.svg",
+      "ImagePath": "/badges_images/terenovi_ihry_ta_zmahy_i_color.svg",
       "Country": "Україна",
       "Specialization": "Військова",
       "Status": "Апробаційна",
@@ -4029,7 +4030,7 @@
     {
       "Id": "terenovi-igry-ta-zmagy-ii",
       "Title": "Теренові ігри та змаги ІІ",
-      "ImagePath": "/images/badges/terenovi_ihry_ta_zmahy_ii_color.svg",
+      "ImagePath": "/badges_images/terenovi_ihry_ta_zmahy_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Військова",
       "Status": "Апробаційна",
@@ -4042,7 +4043,7 @@
     {
       "Id": "terenovi-igry-ta-zmagy-iii",
       "Title": "Теренові ігри та змаги ІІІ",
-      "ImagePath": "/images/badges/terenovi_ihry_ta_zmahy_iii_color.svg",
+      "ImagePath": "/badges_images/terenovi_ihry_ta_zmahy_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Військова",
       "Status": "Апробаційна",
@@ -4055,7 +4056,7 @@
     {
       "Id": "tehnika-grebka-na-katamarani-i",
       "Title": "Техніка гребка на катамарані І",
-      "ImagePath": "/images/badges/tekhnika_hrebka_na_katamarani_i_color.svg",
+      "ImagePath": "/badges_images/tekhnika_hrebka_na_katamarani_i_color.svg",
       "Country": "Україна",
       "Specialization": "Морська",
       "Status": "Затверджена",
@@ -4068,7 +4069,7 @@
     {
       "Id": "tehnika-grebka-na-katamarani-ii",
       "Title": "Техніка гребка на катамарані ІІ",
-      "ImagePath": "/images/badges/tekhnika_hrebka_na_katamarani_ii_color.svg",
+      "ImagePath": "/badges_images/tekhnika_hrebka_na_katamarani_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Морська",
       "Status": "Затверджена",
@@ -4081,7 +4082,7 @@
     {
       "Id": "tehnika-grebka-na-katamarani-iii",
       "Title": "Техніка гребка на катамарані ІІІ",
-      "ImagePath": "/images/badges/tekhnika_hrebka_na_katamarani_iii_color.svg",
+      "ImagePath": "/badges_images/tekhnika_hrebka_na_katamarani_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Морська",
       "Status": "Затверджена",
@@ -4094,7 +4095,7 @@
     {
       "Id": "tehnika-grebka-stoyachy-na-doshczi-i",
       "Title": "Техніка гребка стоячи на дошці І",
-      "ImagePath": "/images/badges/tekhnika_hrebka_stoiachy_na_doshtsi_i_color.svg",
+      "ImagePath": "/badges_images/tekhnika_hrebka_stoiachy_na_doshtsi_i_color.svg",
       "Country": "Україна",
       "Specialization": "Морська",
       "Status": "Затверджена",
@@ -4107,7 +4108,7 @@
     {
       "Id": "tehnika-grebka-stoyachy-na-doshczi-ii",
       "Title": "Техніка гребка стоячи на дошці ІІ",
-      "ImagePath": "/images/badges/tekhnika_hrebka_stoiachy_na_doshtsi_ii_color.svg",
+      "ImagePath": "/badges_images/tekhnika_hrebka_stoiachy_na_doshtsi_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Морська",
       "Status": "Затверджена",
@@ -4120,7 +4121,7 @@
     {
       "Id": "tehnika-grebka-stoyachy-na-doshczi-iii",
       "Title": "Техніка гребка стоячи на дошці ІІІ",
-      "ImagePath": "/images/badges/tekhnika_hrebka_stoiachy_na_doshtsi_iii_color.svg",
+      "ImagePath": "/badges_images/tekhnika_hrebka_stoiachy_na_doshtsi_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Морська",
       "Status": "Затверджена",
@@ -4133,7 +4134,7 @@
     {
       "Id": "try-pera",
       "Title": "Три Пера",
-      "ImagePath": "/images/badges/try_pera_color.svg",
+      "ImagePath": "/badges_images/try_pera_color.svg",
       "Country": "Польща",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -4146,7 +4147,7 @@
     {
       "Id": "try-pera-iii-proba",
       "Title": "Три пера - ІІІ проба",
-      "ImagePath": "/images/badges/try_pera_color.svg",
+      "ImagePath": "/badges_images/try_pera_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -4159,7 +4160,7 @@
     {
       "Id": "ukrayinskyj-ambasador-i-2",
       "Title": "Український амбасадор І",
-      "ImagePath": "/images/badges/ukrainskyi_ambasador_i_color.svg",
+      "ImagePath": "/badges_images/ukrainskyi_ambasador_i_color.svg",
       "Country": "Польща",
       "Specialization": "Етнографічна",
       "Status": "Затверджена",
@@ -4172,7 +4173,7 @@
     {
       "Id": "ukrayinskyj-ambasador-i",
       "Title": "Український амбасадор І",
-      "ImagePath": "/images/badges/ukrainskyi_ambasador_i_color.svg",
+      "ImagePath": "/badges_images/ukrainskyi_ambasador_i_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -4185,7 +4186,7 @@
     {
       "Id": "ukrayinskyj-ambasador-ii-2",
       "Title": "Український амбасадор ІІ",
-      "ImagePath": "/images/badges/ukrainskyi_ambasador_ii_color.svg",
+      "ImagePath": "/badges_images/ukrainskyi_ambasador_ii_color.svg",
       "Country": "Польща",
       "Specialization": "Етнографічна",
       "Status": "Затверджена",
@@ -4198,7 +4199,7 @@
     {
       "Id": "ukrayinskyj-ambasador-ii",
       "Title": "Український амбасадор ІІ",
-      "ImagePath": "/images/badges/ukrainskyi_ambasador_ii_color.svg",
+      "ImagePath": "/badges_images/ukrainskyi_ambasador_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -4211,7 +4212,7 @@
     {
       "Id": "ukrayinskyj-ambasador-iii-2",
       "Title": "Український амбасадор ІІІ",
-      "ImagePath": "/images/badges/ukrainskyi_ambasador_iii_color.svg",
+      "ImagePath": "/badges_images/ukrainskyi_ambasador_iii_color.svg",
       "Country": "Польща",
       "Specialization": "Військова",
       "Status": "Затверджена",
@@ -4224,7 +4225,7 @@
     {
       "Id": "ukrayinskyj-ambasador-iii",
       "Title": "Український амбасадор ІІІ",
-      "ImagePath": "/images/badges/ukrainskyi_ambasador_iii_color.svg",
+      "ImagePath": "/badges_images/ukrainskyi_ambasador_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -4237,7 +4238,7 @@
     {
       "Id": "ukrayinskyj-gerdan-i",
       "Title": "Український ґердан І",
-      "ImagePath": "/images/badges/ukrainskyi_gerdan_i_color.svg",
+      "ImagePath": "/badges_images/ukrainskyi_gerdan_i_color.svg",
       "Country": "Україна",
       "Specialization": "Мистецька",
       "Status": "Затверджена",
@@ -4250,7 +4251,7 @@
     {
       "Id": "ukrayinskyj-gerdan-ii",
       "Title": "Український ґердан ІІ",
-      "ImagePath": "/images/badges/ukrainskyi_gerdan_ii_color.svg",
+      "ImagePath": "/badges_images/ukrainskyi_gerdan_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Мистецька",
       "Status": "Затверджена",
@@ -4263,7 +4264,7 @@
     {
       "Id": "fandrejzyng-i-ii-proba",
       "Title": "Фандрейзинг I - ІІ проба",
-      "ImagePath": "/images/badges/fandreizynh_i_color.svg",
+      "ImagePath": "/badges_images/fandreizynh_i_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -4276,7 +4277,7 @@
     {
       "Id": "fandrejzyng-ii-iii-proba",
       "Title": "Фандрейзинг II - ІІІ проба",
-      "ImagePath": "/images/badges/fandreizynh_ii_color.svg",
+      "ImagePath": "/badges_images/fandreizynh_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -4289,7 +4290,7 @@
     {
       "Id": "fotografuvannya-i",
       "Title": "Фотографування І",
-      "ImagePath": "/images/badges/fotohrafuvannia_i_color.svg",
+      "ImagePath": "/badges_images/fotohrafuvannia_i_color.svg",
       "Country": "Україна",
       "Specialization": "Мистецька",
       "Status": "Затверджена",
@@ -4302,7 +4303,7 @@
     {
       "Id": "fotografuvannya-ii",
       "Title": "Фотографування ІІ",
-      "ImagePath": "/images/badges/fotohrafuvannia_ii_color.svg",
+      "ImagePath": "/badges_images/fotohrafuvannia_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Мистецька",
       "Status": "Затверджена",
@@ -4315,7 +4316,7 @@
     {
       "Id": "fotografuvannya-iii",
       "Title": "Фотографування ІІІ",
-      "ImagePath": "/images/badges/fotohrafuvannia_iii_color.svg",
+      "ImagePath": "/badges_images/fotohrafuvannia_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Мистецька",
       "Status": "Затверджена",
@@ -4328,7 +4329,7 @@
     {
       "Id": "filateliya-i-proba",
       "Title": "Філателія - І проба",
-      "ImagePath": "/images/badges/filateliia_i_color.svg",
+      "ImagePath": "/badges_images/filateliia_i_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -4341,7 +4342,7 @@
     {
       "Id": "filokartiya-i",
       "Title": "Філокартія І",
-      "ImagePath": "/images/badges/filokartiya-1-ch_b.svg",
+      "ImagePath": "/badges_images/filokartiya-1-ch_b.svg",
       "Country": "Польща",
       "Specialization": "Загальні вмілості",
       "Status": "Апробаційна",
@@ -4354,7 +4355,7 @@
     {
       "Id": "filokartiya-ii",
       "Title": "Філокартія ІІ",
-      "ImagePath": "/images/badges/filokartiya-2-1-pdf.jpg",
+      "ImagePath": "/badges_images/filokartiya-2-1-pdf.jpg",
       "Country": "Польща",
       "Specialization": "Загальні вмілості",
       "Status": "Апробаційна",
@@ -4367,7 +4368,7 @@
     {
       "Id": "filokartiya-iii",
       "Title": "Філокартія ІІІ",
-      "ImagePath": "/images/badges/filokartiya-3-1-pdf.jpg",
+      "ImagePath": "/badges_images/filokartiya-3-1-pdf.jpg",
       "Country": "Польща",
       "Specialization": "Загальні вмілості",
       "Status": "Апробаційна",
@@ -4380,7 +4381,7 @@
     {
       "Id": "filmuvannya-ii-proba",
       "Title": "Фільмування - ІІ проба",
-      "ImagePath": "/images/badges/filmuvannia_ii_color.svg",
+      "ImagePath": "/badges_images/filmuvannia_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Мистецька",
       "Status": "Затверджена",
@@ -4393,7 +4394,7 @@
     {
       "Id": "horovody-gagilky-iii-proba",
       "Title": "Хороводи-гагілки - ІІІ проба",
-      "ImagePath": "/images/badges/khorovody_hahilky_iii_color.svg",
+      "ImagePath": "/badges_images/khorovody_hahilky_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Мистецька",
       "Status": "Затверджена",
@@ -4406,7 +4407,7 @@
     {
       "Id": "chytannya-i-proba",
       "Title": "Читання - І проба",
-      "ImagePath": "/images/badges/chytannia_i_color.svg",
+      "ImagePath": "/badges_images/chytannia_i_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -4419,7 +4420,7 @@
     {
       "Id": "shahy-ii-proba",
       "Title": "Шахи - ІІ проба",
-      "ImagePath": "/images/badges/shakhy_ii_color.svg",
+      "ImagePath": "/badges_images/shakhy_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Загальні вмілості",
       "Status": "Затверджена",
@@ -4432,7 +4433,7 @@
     {
       "Id": "shyttya-i",
       "Title": "Шиття І",
-      "ImagePath": "/images/badges/shyttia_i_color.svg",
+      "ImagePath": "/badges_images/shyttia_i_color.svg",
       "Country": "Україна",
       "Specialization": "Мистецька",
       "Status": "Затверджена",
@@ -4445,7 +4446,7 @@
     {
       "Id": "shyttya-ii",
       "Title": "Шиття ІІ",
-      "ImagePath": "/images/badges/shyttia_ii_color.svg",
+      "ImagePath": "/badges_images/shyttia_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Мистецька",
       "Status": "Затверджена",
@@ -4458,7 +4459,7 @@
     {
       "Id": "shyttya-iii",
       "Title": "Шиття ІІІ",
-      "ImagePath": "/images/badges/shyttia_iii_color.svg",
+      "ImagePath": "/badges_images/shyttia_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Мистецька",
       "Status": "Затверджена",
@@ -4471,7 +4472,7 @@
     {
       "Id": "yakirnycztvo-ii-proba",
       "Title": "Якірництво - ІІ проба",
-      "ImagePath": "/images/badges/yakirnytstvo_ii_color.svg",
+      "ImagePath": "/badges_images/yakirnytstvo_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Морська",
       "Status": "Затверджена",
@@ -4484,7 +4485,7 @@
     {
       "Id": "instruktor-velomandrivnycztva-iii-proba",
       "Title": "Інструктор веломандрівництва (ІІІ проба)",
-      "ImagePath": "/images/badges/velomandrivnytstvo_i_color.svg",
+      "ImagePath": "/badges_images/velomandrivnytstvo_i_color.svg",
       "Country": "Україна",
       "Specialization": "Велосипедна",
       "Status": "Затверджена",
@@ -4497,7 +4498,7 @@
     {
       "Id": "istoriya-aviacziyi-i",
       "Title": "Історія авіації І",
-      "ImagePath": "/images/badges/istoriia_aviatsii_i_color.svg",
+      "ImagePath": "/badges_images/istoriia_aviatsii_i_color.svg",
       "Country": "Україна",
       "Specialization": "Летунська",
       "Status": "Затверджена",
@@ -4510,7 +4511,7 @@
     {
       "Id": "istoriya-aviacziyi-ii",
       "Title": "Історія авіації ІІ",
-      "ImagePath": "/images/badges/istoriia_aviatsii_ii_color.svg",
+      "ImagePath": "/badges_images/istoriia_aviatsii_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Летунська",
       "Status": "Затверджена",
@@ -4523,7 +4524,7 @@
     {
       "Id": "istoriya-aviacziyi-iii",
       "Title": "Історія авіації ІІІ",
-      "ImagePath": "/images/badges/istoriia_aviatsii_iii_color.svg",
+      "ImagePath": "/badges_images/istoriia_aviatsii_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Летунська",
       "Status": "Затверджена",
@@ -4536,7 +4537,7 @@
     {
       "Id": "yizda-verhy-i",
       "Title": "Їзда верхи I",
-      "ImagePath": "/images/badges/yizda_verkhy_i_color.svg",
+      "ImagePath": "/badges_images/yizda_verkhy_i_color.svg",
       "Country": "Україна",
       "Specialization": "Кінна",
       "Status": "Затверджена",
@@ -4549,7 +4550,7 @@
     {
       "Id": "yizda-verhy-ii",
       "Title": "Їзда верхи II",
-      "ImagePath": "/images/badges/yizda_verkhy_ii_color.svg",
+      "ImagePath": "/badges_images/yizda_verkhy_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Кінна",
       "Status": "Затверджена",
@@ -4562,7 +4563,7 @@
     {
       "Id": "yizda-verhy-iii",
       "Title": "Їзда верхи III",
-      "ImagePath": "/images/badges/yizda_verkhy_iii_color.svg",
+      "ImagePath": "/badges_images/yizda_verkhy_iii_color.svg",
       "Country": "Україна",
       "Specialization": "Кінна",
       "Status": "Затверджена",
@@ -4575,7 +4576,7 @@
     {
       "Id": "yizda-na-velosypedi-i-proba",
       "Title": "Їзда на велосипеді - І проба",
-      "ImagePath": "/images/badges/yizda_na_velosypedi_i_color.svg",
+      "ImagePath": "/badges_images/yizda_na_velosypedi_i_color.svg",
       "Country": "Україна",
       "Specialization": "Велосипедна",
       "Status": "Затверджена",
@@ -4588,7 +4589,7 @@
     {
       "Id": "yizda-pidvodoyu-i-ii-proba",
       "Title": "Їзда підводою I - ІІ проба",
-      "ImagePath": "/images/badges/yizda_pidvodoiu_i_color.svg",
+      "ImagePath": "/badges_images/yizda_pidvodoiu_i_color.svg",
       "Country": "Україна",
       "Specialization": "Кінна",
       "Status": "Затверджена",
@@ -4601,7 +4602,7 @@
     {
       "Id": "yizda-pidvodoyu-ii-iii-proba",
       "Title": "Їзда підводою II - ІІІ проба",
-      "ImagePath": "/images/badges/yizda_pidvodoiu_ii_color.svg",
+      "ImagePath": "/badges_images/yizda_pidvodoiu_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Кінна",
       "Status": "Затверджена",
@@ -4614,7 +4615,7 @@
     {
       "Id": "yizda-sanyamy-i-ii-proba",
       "Title": "Їзда санями I - ІІ проба",
-      "ImagePath": "/images/badges/yizda_saniamy_i_color.svg",
+      "ImagePath": "/badges_images/yizda_saniamy_i_color.svg",
       "Country": "Україна",
       "Specialization": "Кінна",
       "Status": "Апробаційна",
@@ -4629,7 +4630,7 @@
     {
       "Id": "yizda-sanyamy-ii-iii-proba",
       "Title": "Їзда санями II - ІІІ проба",
-      "ImagePath": "/images/badges/yizda_saniamy_ii_color.svg",
+      "ImagePath": "/badges_images/yizda_saniamy_ii_color.svg",
       "Country": "Україна",
       "Specialization": "Кінна",
       "Status": "Апробаційна",
