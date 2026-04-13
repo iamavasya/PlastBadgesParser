@@ -9,6 +9,7 @@ using System.Text;
 using System.Text.Json;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 using HtmlAgilityPack;
 using ReverseMarkdown;
 
@@ -30,6 +31,7 @@ namespace PlastBadgesParser
 
     public record ExportMetadata(
         string ParserVersion,
+        string ToolAuthor,
         string ParserComment,
         string ParsedAtUtc,
         string SourceUrl,
@@ -55,7 +57,8 @@ namespace PlastBadgesParser
         bool ReportOnly,
         string InputPath,
         string LinkBaseUrl,
-        string ReportOutputPath
+        string ReportOutputPath,
+        string ProjectFilePath
     );
 
     class Program
@@ -64,6 +67,9 @@ namespace PlastBadgesParser
         private const string BaseUrl = "https://plast.global/biblioteka-vmilostej/";
         private const string BadgePublicBaseUrl = "https://plast.global/skills-library/";
         private const string OutputFileName = "badges.json";
+        private const string DefaultProjectFileName = "PlastBadgesParser.csproj";
+        private const string ToolAuthor = "Rostyslav Mukha";
+        private const string ParserVersionEnvVar = "PARSER_VERSION";
         private const string FallbackParserVersion = "1.0.0";
         private static readonly HttpClient _httpClient = new HttpClient();
         private static readonly Dictionary<DayOfWeek, string> DayPrefixes = new()
@@ -85,6 +91,7 @@ namespace PlastBadgesParser
         static async Task Main(string[] args)
         {
             var options = ParseOptions(args);
+            var projectFilePath = ResolveProjectFilePath(options.ProjectFilePath);
 
             if (options.ReportOnly)
             {
@@ -132,10 +139,11 @@ namespace PlastBadgesParser
             }
 
             var parsedAtUtc = DateTime.UtcNow;
-            var parserVersion = GetParserVersion();
+            var parserVersion = ResolveParserVersion(projectFilePath);
             var export = new BadgesExport(
                 Meta: new ExportMetadata(
                     ParserVersion: parserVersion,
+                    ToolAuthor: ToolAuthor,
                     ParserComment: $"PlastBadgesParser v{parserVersion}. Parsed from {BaseUrl} at {parsedAtUtc:yyyy-MM-dd HH:mm:ss} UTC",
                     ParsedAtUtc: parsedAtUtc.ToString("yyyy-MM-ddTHH:mm:ssZ", CultureInfo.InvariantCulture),
                     SourceUrl: BaseUrl,
@@ -158,7 +166,24 @@ namespace PlastBadgesParser
             Console.WriteLine($"\nГотово! Дані збережено у {OutputFileName}, а векторні зображення у папку {imagesDir}");
         }
 
-        static string GetParserVersion()
+        static string ResolveParserVersion(string projectFilePath)
+        {
+            var envVersion = ResolveParserVersionFromEnvironment();
+            if (!string.IsNullOrWhiteSpace(envVersion))
+            {
+                return envVersion;
+            }
+
+            var projectVersion = ReadProjectVersion(projectFilePath);
+            if (!string.IsNullOrWhiteSpace(projectVersion))
+            {
+                return projectVersion;
+            }
+
+            return GetAssemblyParserVersion();
+        }
+
+        static string GetAssemblyParserVersion()
         {
             var assembly = Assembly.GetExecutingAssembly();
             var infoVersion = assembly
@@ -174,6 +199,73 @@ namespace PlastBadgesParser
             return assembly.GetName().Version?.ToString() ?? FallbackParserVersion;
         }
 
+        static string ResolveParserVersionFromEnvironment()
+        {
+            var raw = Environment.GetEnvironmentVariable(ParserVersionEnvVar);
+            if (string.IsNullOrWhiteSpace(raw))
+            {
+                return string.Empty;
+            }
+
+            var version = raw.Trim();
+
+            if (version.StartsWith("refs/tags/", StringComparison.OrdinalIgnoreCase))
+            {
+                version = version.Substring("refs/tags/".Length);
+            }
+
+            if (version.StartsWith("v", StringComparison.OrdinalIgnoreCase))
+            {
+                version = version.Substring(1);
+            }
+
+            // Accept semver with optional prerelease/build metadata.
+            var semverMatch = Regex.Match(version, @"^(?<version>\d+\.\d+\.\d+(?:[-+][0-9A-Za-z\.-]+)?)$");
+            if (!semverMatch.Success)
+            {
+                return string.Empty;
+            }
+
+            return semverMatch.Groups["version"].Value;
+        }
+
+        static string ResolveProjectFilePath(string cliProjectFilePath)
+        {
+            if (!string.IsNullOrWhiteSpace(cliProjectFilePath))
+            {
+                var explicitPath = Path.GetFullPath(cliProjectFilePath);
+                if (!File.Exists(explicitPath))
+                {
+                    throw new FileNotFoundException($"Project file not found: {explicitPath}");
+                }
+
+                return explicitPath;
+            }
+
+            var cwdDefault = Path.Combine(Directory.GetCurrentDirectory(), DefaultProjectFileName);
+            if (File.Exists(cwdDefault))
+            {
+                return cwdDefault;
+            }
+
+            var firstCsproj = Directory.GetFiles(Directory.GetCurrentDirectory(), "*.csproj", SearchOption.TopDirectoryOnly)
+                .FirstOrDefault();
+
+            if (string.IsNullOrWhiteSpace(firstCsproj))
+            {
+                throw new FileNotFoundException("Project file was not found in current directory. Use --project-file=<path>.");
+            }
+
+            return firstCsproj;
+        }
+
+        static string ReadProjectVersion(string projectFilePath)
+        {
+            var xml = XDocument.Load(projectFilePath);
+            var versionElement = xml.Descendants().FirstOrDefault(x => x.Name.LocalName == "Version");
+            return versionElement?.Value?.Trim() ?? string.Empty;
+        }
+
         static ParserOptions ParseOptions(string[] args)
         {
             bool fixerEnabled = true;
@@ -182,6 +274,7 @@ namespace PlastBadgesParser
             string inputPath = OutputFileName;
             string linkBaseUrl = BadgePublicBaseUrl;
             string reportOutputPath = string.Empty;
+            string projectFilePath = string.Empty;
 
             foreach (var arg in args)
             {
@@ -242,10 +335,16 @@ namespace PlastBadgesParser
                 if (arg.StartsWith("--report-out=", StringComparison.OrdinalIgnoreCase))
                 {
                     reportOutputPath = arg.Split('=', 2).LastOrDefault()?.Trim() ?? string.Empty;
+                    continue;
+                }
+
+                if (arg.StartsWith("--project-file=", StringComparison.OrdinalIgnoreCase))
+                {
+                    projectFilePath = arg.Split('=', 2).LastOrDefault()?.Trim() ?? string.Empty;
                 }
             }
 
-            return new ParserOptions(fixerEnabled, fixerMode, reportOnly, inputPath, linkBaseUrl, reportOutputPath);
+            return new ParserOptions(fixerEnabled, fixerMode, reportOnly, inputPath, linkBaseUrl, reportOutputPath, projectFilePath);
         }
 
         static async Task RunReportOnlyAsync(ParserOptions options)

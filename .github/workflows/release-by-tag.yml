@@ -1,0 +1,94 @@
+name: Release By Tag
+
+on:
+  push:
+    tags:
+      - "v*.*.*"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "10.0.x"
+
+      - name: Resolve Version From Tag
+        shell: bash
+        run: |
+          RAW_TAG="${GITHUB_REF_NAME}"
+          VERSION="${RAW_TAG#refs/tags/}"
+          VERSION="${VERSION#v}"
+          echo "PARSER_VERSION=${VERSION}" >> "$GITHUB_ENV"
+          echo "Using parser version: ${VERSION}"
+
+      - name: Restore
+        run: dotnet restore ./PlastBadgesParser.csproj
+
+      - name: Build (version from tag)
+        env:
+          PARSER_VERSION: ${{ env.PARSER_VERSION }}
+        run: dotnet build ./PlastBadgesParser.csproj -c Release /p:Version=${PARSER_VERSION} /p:InformationalVersion=${PARSER_VERSION} --no-restore
+
+      - name: Publish
+        env:
+          PARSER_VERSION: ${{ env.PARSER_VERSION }}
+        run: dotnet publish ./PlastBadgesParser.csproj -c Release -o ./artifacts/publish /p:Version=${PARSER_VERSION} /p:InformationalVersion=${PARSER_VERSION} --no-build
+
+      - name: Pack Parser Binary
+        env:
+          PARSER_VERSION: ${{ env.PARSER_VERSION }}
+        run: |
+          mkdir -p ./artifacts
+          cd ./artifacts/publish
+          zip -r ../plast-badges-parser-${PARSER_VERSION}.zip .
+          cd ../..
+
+      - name: Validate Data Files In Repository
+        run: |
+          test -f ./badges.json
+          test -d ./badges_images
+
+      - name: Prepare Repository Data Snapshot
+        run: |
+          rm -rf ./artifacts/data-snapshot
+          mkdir -p ./artifacts/data-snapshot
+          cp ./badges.json ./artifacts/data-snapshot/badges.json
+          cp -r ./badges_images ./artifacts/data-snapshot/badges_images
+
+      - name: Patch badges.json version from tag
+        env:
+          PARSER_VERSION: ${{ env.PARSER_VERSION }}
+          TAG_NAME: ${{ github.ref_name }}
+        run: |
+          jq -e '.Meta and (.Meta | type == "object")' ./artifacts/data-snapshot/badges.json >/dev/null
+          jq --arg version "$PARSER_VERSION" --arg tag "$TAG_NAME" '
+            .Meta.ParserVersion = $version
+            | .Meta.ParserComment = ("PlastBadgesParser v" + $version + ". Release asset from repo snapshot at tag " + $tag)
+          ' ./artifacts/data-snapshot/badges.json > ./artifacts/data-snapshot/badges.tmp.json
+          mv ./artifacts/data-snapshot/badges.tmp.json ./artifacts/data-snapshot/badges.json
+
+      - name: Pack Repository Data Snapshot
+        env:
+          PARSER_VERSION: ${{ env.PARSER_VERSION }}
+        run: |
+          cd ./artifacts/data-snapshot
+          zip -r ../plast-badges-data-${PARSER_VERSION}.zip .
+          cd ../..
+
+      - name: Create GitHub Release With Assets
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ github.ref_name }}
+          generate_release_notes: true
+          files: |
+            ./artifacts/plast-badges-parser-${{ env.PARSER_VERSION }}.zip
+            ./artifacts/plast-badges-data-${{ env.PARSER_VERSION }}.zip
