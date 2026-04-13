@@ -4,6 +4,8 @@ using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Net.Http;
+using System.Reflection;
+using System.Text;
 using System.Text.Json;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
@@ -27,6 +29,7 @@ namespace PlastBadgesParser
     );
 
     public record ExportMetadata(
+        string ParserVersion,
         string ParserComment,
         string ParsedAtUtc,
         string SourceUrl,
@@ -48,14 +51,20 @@ namespace PlastBadgesParser
 
     public record ParserOptions(
         bool FixerEnabled,
-        FixerMode FixerMode
+        FixerMode FixerMode,
+        bool ReportOnly,
+        string InputPath,
+        string LinkBaseUrl,
+        string ReportOutputPath
     );
 
     class Program
     {
         // Parsed from https://plast.global/biblioteka-vmilostej/ - there are all badges in one page. / 12.04.2026
         private const string BaseUrl = "https://plast.global/biblioteka-vmilostej/";
+        private const string BadgePublicBaseUrl = "https://plast.global/skills-library/";
         private const string OutputFileName = "badges.json";
+        private const string FallbackParserVersion = "1.0.0";
         private static readonly HttpClient _httpClient = new HttpClient();
         private static readonly Dictionary<DayOfWeek, string> DayPrefixes = new()
         {
@@ -76,6 +85,13 @@ namespace PlastBadgesParser
         static async Task Main(string[] args)
         {
             var options = ParseOptions(args);
+
+            if (options.ReportOnly)
+            {
+                await RunReportOnlyAsync(options);
+                return;
+            }
+
             Console.WriteLine($"Починаємо збір даних... Fixer: {(options.FixerEnabled ? options.FixerMode.ToString() : "Off")}");
 
             string imagesDir = Path.Combine(Directory.GetCurrentDirectory(), "badges_images");
@@ -116,9 +132,11 @@ namespace PlastBadgesParser
             }
 
             var parsedAtUtc = DateTime.UtcNow;
+            var parserVersion = GetParserVersion();
             var export = new BadgesExport(
                 Meta: new ExportMetadata(
-                    ParserComment: $"Parsed from {BaseUrl} at {parsedAtUtc:yyyy-MM-dd HH:mm:ss} UTC",
+                    ParserVersion: parserVersion,
+                    ParserComment: $"PlastBadgesParser v{parserVersion}. Parsed from {BaseUrl} at {parsedAtUtc:yyyy-MM-dd HH:mm:ss} UTC",
                     ParsedAtUtc: parsedAtUtc.ToString("yyyy-MM-ddTHH:mm:ssZ", CultureInfo.InvariantCulture),
                     SourceUrl: BaseUrl,
                     FixerEnabled: options.FixerEnabled,
@@ -140,13 +158,39 @@ namespace PlastBadgesParser
             Console.WriteLine($"\nГотово! Дані збережено у {OutputFileName}, а векторні зображення у папку {imagesDir}");
         }
 
+        static string GetParserVersion()
+        {
+            var assembly = Assembly.GetExecutingAssembly();
+            var infoVersion = assembly
+                .GetCustomAttribute<AssemblyInformationalVersionAttribute>()
+                ?.InformationalVersion;
+
+            if (!string.IsNullOrWhiteSpace(infoVersion))
+            {
+                // Trim source control suffixes such as "+commitSha" for cleaner metadata.
+                return infoVersion.Split('+', 2)[0].Trim();
+            }
+
+            return assembly.GetName().Version?.ToString() ?? FallbackParserVersion;
+        }
+
         static ParserOptions ParseOptions(string[] args)
         {
             bool fixerEnabled = true;
             FixerMode fixerMode = FixerMode.Soft;
+            bool reportOnly = false;
+            string inputPath = OutputFileName;
+            string linkBaseUrl = BadgePublicBaseUrl;
+            string reportOutputPath = string.Empty;
 
             foreach (var arg in args)
             {
+                if (string.Equals(arg, "--report-only", StringComparison.OrdinalIgnoreCase))
+                {
+                    reportOnly = true;
+                    continue;
+                }
+
                 if (string.Equals(arg, "--no-fixer", StringComparison.OrdinalIgnoreCase) ||
                     string.Equals(arg, "--fixer=off", StringComparison.OrdinalIgnoreCase))
                 {
@@ -179,10 +223,170 @@ namespace PlastBadgesParser
                         fixerEnabled = false;
                         fixerMode = FixerMode.Off;
                     }
+
+                    continue;
+                }
+
+                if (arg.StartsWith("--input=", StringComparison.OrdinalIgnoreCase))
+                {
+                    inputPath = arg.Split('=', 2).LastOrDefault()?.Trim() ?? OutputFileName;
+                    continue;
+                }
+
+                if (arg.StartsWith("--link-base=", StringComparison.OrdinalIgnoreCase))
+                {
+                    linkBaseUrl = arg.Split('=', 2).LastOrDefault()?.Trim() ?? BadgePublicBaseUrl;
+                    continue;
+                }
+
+                if (arg.StartsWith("--report-out=", StringComparison.OrdinalIgnoreCase))
+                {
+                    reportOutputPath = arg.Split('=', 2).LastOrDefault()?.Trim() ?? string.Empty;
                 }
             }
 
-            return new ParserOptions(fixerEnabled, fixerMode);
+            return new ParserOptions(fixerEnabled, fixerMode, reportOnly, inputPath, linkBaseUrl, reportOutputPath);
+        }
+
+        static async Task RunReportOnlyAsync(ParserOptions options)
+        {
+            Console.WriteLine($"Report-only режим: файл '{options.InputPath}', fixer: {(options.FixerEnabled ? options.FixerMode.ToString() : "Off")}");
+
+            var badges = await LoadBadgesFromJsonAsync(options.InputPath);
+            var analyzed = badges;
+            if (options.FixerEnabled && options.FixerMode == FixerMode.Soft)
+            {
+                analyzed = badges.Select(ApplySoftFixes).ToList();
+            }
+
+            var flagged = analyzed
+                .Where(b => b.FixNotes != null && b.FixNotes.Count > 0)
+                .OrderByDescending(b => b.FixNotes.Count)
+                .ThenBy(b => b.Id)
+                .ToList();
+
+            var fullInputPath = Path.GetFullPath(options.InputPath);
+            var fileName = Path.GetFileName(fullInputPath);
+            var lineMap = BuildBadgeIdLineMap(await File.ReadAllLinesAsync(fullInputPath));
+
+            var report = new StringBuilder();
+            report.AppendLine($"Fix report for {fullInputPath}");
+            report.AppendLine($"Total badges: {analyzed.Count}");
+            report.AppendLine($"Badges with FixNotes: {flagged.Count}");
+            report.AppendLine();
+
+            if (flagged.Count == 0)
+            {
+                report.AppendLine("No badges with FixNotes were found.");
+            }
+            else
+            {
+                foreach (var badge in flagged)
+                {
+                    var sourceLink = BuildBadgePublicLink(options.LinkBaseUrl, badge.Id);
+                    var fileRef = lineMap.TryGetValue(badge.Id, out var line)
+                        ? $"{fullInputPath}:{line}"
+                        : $"{fileName}:?";
+
+                    report.AppendLine($"- {badge.Id} | {badge.Title}");
+                    report.AppendLine($"  json: {fileRef}");
+                    report.AppendLine($"  source: {sourceLink}");
+                    report.AppendLine($"  notes: {string.Join(" | ", badge.FixNotes)}");
+                }
+            }
+
+            Console.WriteLine(report.ToString());
+
+            if (!string.IsNullOrWhiteSpace(options.ReportOutputPath))
+            {
+                var reportPath = Path.GetFullPath(options.ReportOutputPath);
+                await File.WriteAllTextAsync(reportPath, report.ToString());
+                Console.WriteLine($"Report збережено у {reportPath}");
+            }
+        }
+
+        static async Task<List<BadgeDetail>> LoadBadgesFromJsonAsync(string inputPath)
+        {
+            var fullInputPath = Path.GetFullPath(inputPath);
+            if (!File.Exists(fullInputPath))
+            {
+                throw new FileNotFoundException($"Input file not found: {fullInputPath}");
+            }
+
+            var json = await File.ReadAllTextAsync(fullInputPath);
+            var options = new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true
+            };
+
+            var trimmed = json.TrimStart();
+            List<BadgeDetail>? badges = null;
+            if (trimmed.StartsWith("[", StringComparison.Ordinal))
+            {
+                badges = JsonSerializer.Deserialize<List<BadgeDetail>>(json, options);
+            }
+            else if (trimmed.StartsWith("{", StringComparison.Ordinal))
+            {
+                var export = JsonSerializer.Deserialize<BadgesExport>(json, options);
+                badges = export?.Badges;
+            }
+
+            if (badges == null)
+            {
+                throw new InvalidDataException("Unsupported JSON format. Expected either badge array or { meta, badges } object.");
+            }
+
+            return badges.Select(NormalizeBadgeShape).ToList();
+        }
+
+        static BadgeDetail NormalizeBadgeShape(BadgeDetail badge)
+        {
+            return badge with
+            {
+                Id = badge.Id ?? string.Empty,
+                Title = badge.Title ?? string.Empty,
+                ImagePath = badge.ImagePath ?? string.Empty,
+                Country = badge.Country ?? string.Empty,
+                Specialization = badge.Specialization ?? string.Empty,
+                Status = badge.Status ?? string.Empty,
+                LastUpdated = badge.LastUpdated ?? string.Empty,
+                SeekerRequirements = badge.SeekerRequirements ?? string.Empty,
+                InstructorRequirements = badge.InstructorRequirements ?? string.Empty,
+                FixNotes = badge.FixNotes ?? new List<string>()
+            };
+        }
+
+        static Dictionary<string, int> BuildBadgeIdLineMap(string[] lines)
+        {
+            var map = new Dictionary<string, int>(StringComparer.OrdinalIgnoreCase);
+            var idRegex = new Regex("\"Id\"\\s*:\\s*\"(?<id>[^\"]+)\"", RegexOptions.Compiled);
+            for (int i = 0; i < lines.Length; i++)
+            {
+                var match = idRegex.Match(lines[i]);
+                if (match.Success)
+                {
+                    var id = match.Groups["id"].Value;
+                    if (!map.ContainsKey(id))
+                    {
+                        map[id] = i + 1;
+                    }
+                }
+            }
+
+            return map;
+        }
+
+        static string BuildBadgePublicLink(string baseUrl, string id)
+        {
+            var normalizedBase = string.IsNullOrWhiteSpace(baseUrl) ? BadgePublicBaseUrl : baseUrl.Trim();
+            if (!normalizedBase.EndsWith('/'))
+            {
+                normalizedBase += "/";
+            }
+
+            return string.IsNullOrWhiteSpace(id)
+                ? normalizedBase
+                : $"{normalizedBase}{id}/";
         }
 
         static async Task<List<string>> GetBadgeLinksAsync(string url)
